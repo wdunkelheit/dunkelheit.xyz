@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Dunkelheit</title>
+    <link>https://dunkelheit.biz/tags.html</link>
+    <description>Recent content in Tags on Dunkelheit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 16 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dunkelheit.biz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hugo</title>
+      <link>https://dunkelheit.biz/tags/hugo.html</link>
+      <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.biz/tags/hugo.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>meta</title>
+      <link>https://dunkelheit.biz/tags/meta.html</link>
+      <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.biz/tags/meta.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>language</title>
+      <link>https://dunkelheit.biz/tags/language.html</link>
+      <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.biz/tags/language.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>video games</title>
+      <link>https://dunkelheit.biz/tags/video-games.html</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.biz/tags/video-games.html</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

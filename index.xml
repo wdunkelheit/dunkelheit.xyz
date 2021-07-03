@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dunkelheit</title>
+    <link>https://dunkelheit.biz/</link>
+    <description>Recent content on Dunkelheit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 16 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dunkelheit.biz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Switching To Markdown Format</title>
+      <link>https://dunkelheit.biz/blog/2021/switching-to-markdown-format.html</link>
+      <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/2021/switching-to-markdown-format.html</guid>
+      <description>I am starting to get comfortable with hugo as a static site generator, I know I haven&amp;rsquo;t made my theme the &amp;ldquo;correct way&amp;rdquo; but for now it works to an acceptable minimum and most importantly the pages it produces are formatted perfectly.
+I had an issue in that I couldn&amp;rsquo;t decide if I wanted to use Markdown or HTML when writing blog posts. The issue may seem silly (it is) but my reasons for having it were pretty straight forward:</description>
+    </item>
+    
+    <item>
+      <title>Learning German</title>
+      <link>https://dunkelheit.biz/blog/2021/learning-german.html</link>
+      <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/2021/learning-german.html</guid>
+      <description>I have decided to learn German. I have always had an interest in learning another language but due to the terrible methodology used by the education system and cringe meme apps like DuoLingo I was never motivated enough to stick them out. However I recently came to discover the Michel Thomas method after reading these articles by Luke Smith: Notes on Learning Languages and Learning European Languages (Michel Thomas). I won&amp;rsquo;t bother to sumamrize them here but you should definetely read them if you are interested in learning a language.</description>
+    </item>
+    
+    <item>
+      <title>Video Games Are Over</title>
+      <link>https://dunkelheit.biz/blog/2021/video-games-are-over.html</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/2021/video-games-are-over.html</guid>
+      <description>Introduction: Modern video games are an industrialised product that satisfies checklists at the cost of a unique identity and product. They are deceptively marketted and maliciously monetized.
+Occasionally a video game will come out that is just trying to be a fun video game. These are few and far between.
+This is not a nostalgia post, modern video games are genuinely terrible.
+Why do they suck? The simple answer and the correct one is: money.</description>
+    </item>
+    
+  </channel>
+</rss>
