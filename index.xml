@@ -6,36 +6,137 @@
     <description>Recent content on Dunkelheit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 16 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dunkelheit.biz/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Jul 2021 08:20:25 +0000</lastBuildDate><atom:link href="https://dunkelheit.biz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RSS Is Based</title>
+      <link>https://dunkelheit.biz/blog/2021/rss-is-based.html</link>
+      <pubDate>Sat, 24 Jul 2021 08:20:25 +0000</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/2021/rss-is-based.html</guid>
+      <description>&lt;p&gt;I recently started using Newsboat for RSS.&lt;/p&gt;
+&lt;p&gt;Getting a proper RSS setup has been on my &amp;ldquo;cozy setup&amp;rdquo; checklist for a while. It didn&amp;rsquo;t take much time at all to get it working either.&lt;/p&gt;
+&lt;p&gt;I previously just used browser plug-ins for this however this approach is terrible in practice.&lt;/p&gt;
+&lt;p&gt;Now that I have a proper setup using Newsboat I can truly appreciate RSS feeds and I would recommend using them to anyone that wants to keep up to date with things without engaging with social media.&lt;/p&gt;
+&lt;h3 id=&#34;what-is-rss&#34;&gt;What is RSS?&lt;/h3&gt;
+&lt;p&gt;RSS is an abbreviation of Really Simple Syndication, although this isn&amp;rsquo;t it&amp;rsquo;s original name. Put simply it is a way for you to download a feed from a website and keep up to date with it.&lt;/p&gt;
+&lt;p&gt;This means that instead of using intrusive and manipulated social media feeds to keep up to date with your favourite web feeds you can have it all in one place on your computer.&lt;/p&gt;
+&lt;p&gt;You may infact already be using RSS without realising it. Did you know that most podcast apps are just RSS readers with a media player?&lt;/p&gt;
+&lt;p&gt;Using RSS you can completely replace the need for a Google account to keep up to date with your favourite channels. Although adding YouTube channels to an RSS feed isn&amp;rsquo;t as straightforward as blogs or podcasts it is doable and once you have done it once the difficulty ends there.&lt;/p&gt;
+&lt;p&gt;One small caveat to this is that YouTube can choose to eliminate RSS feeds at any time so it may be worth keeping a separate list of channels you subscribe to for the inevitable third party solution that pops up if this situation were to arise.&lt;/p&gt;
+&lt;h3 id=&#34;why-use-rss&#34;&gt;Why use RSS?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Censorship Resistance:&lt;/strong&gt; You get what you subscribed to, no manipulation by algorithms or loss of access based on social media account status.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Convenience:&lt;/strong&gt; Every feed you care for in one place, in whatever order you want, categorised, tagged, etc however you see fit.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Minimalist:&lt;/strong&gt; No need for accounts or web services. Just a list, add or remove as needed.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Portable:&lt;/strong&gt; You can read the feeds using any client you like.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Privacy:&lt;/strong&gt; RSS just loads an XML file from a webserver, there is no tracking, javascript, middleman services, etc. You get the feed sent directly to you without the need to identify yourself.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;how-do-i-get-started&#34;&gt;How do I get started?&lt;/h3&gt;
+&lt;p&gt;You can get started by downloading an RSS client. I recommend the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;newsboat&lt;/code&gt; - CLI client, highly configurable and easy to configure.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;liferea&lt;/code&gt; - GUI client, highly configurable graphical client, uses GTK+ theme.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These can be found in your distro&amp;rsquo;s package manager.&lt;/p&gt;
+&lt;p&gt;Now you have a client you can start adding your favourite feeds.&lt;/p&gt;
+&lt;h3 id=&#34;tips&#34;&gt;Tips:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Add feeds as you go, doing it all at once can be an exhaustive exercise.&lt;/li&gt;
+&lt;li&gt;If a site doesn&amp;rsquo;t natively support RSS you will likely find a tool that can create a feed for you instead.&lt;/li&gt;
+&lt;li&gt;Some sites provide feeds for specific topics.&lt;/li&gt;
+&lt;li&gt;Read the documentation for your chosen client if you need help configuring it.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
     <item>
       <title>Switching To Markdown Format</title>
       <link>https://dunkelheit.biz/blog/2021/switching-to-markdown-format.html</link>
-      <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 16 Jul 2021 07:00:00 +0000</pubDate>
       
       <guid>https://dunkelheit.biz/blog/2021/switching-to-markdown-format.html</guid>
-      <description>I am starting to get comfortable with hugo as a static site generator, I know I haven&amp;rsquo;t made my theme the &amp;ldquo;correct way&amp;rdquo; but for now it works to an acceptable minimum and most importantly the pages it produces are formatted perfectly.
-I had an issue in that I couldn&amp;rsquo;t decide if I wanted to use Markdown or HTML when writing blog posts. The issue may seem silly (it is) but my reasons for having it were pretty straight forward:</description>
+      <description>&lt;p&gt;I am starting to get comfortable with &lt;code&gt;hugo&lt;/code&gt; as a static site generator, I know I haven&amp;rsquo;t made my theme the &amp;ldquo;correct way&amp;rdquo; but for now it works to an acceptable minimum and most importantly the pages it produces are formatted perfectly.&lt;/p&gt;
+&lt;p&gt;I had an issue in that I couldn&amp;rsquo;t decide if I wanted to use Markdown or HTML when writing blog posts. The issue may seem silly (it is) but my reasons for having it were pretty straight forward:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Autism&lt;/li&gt;
+&lt;li&gt;Markdown:
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;Just Works&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Easy to read and write (important for blogging)&lt;/li&gt;
+&lt;li&gt;Hugo&amp;rsquo;s intended language (kinda)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;HTML:
+&lt;ul&gt;
+&lt;li&gt;Gives me total control via element ids and tags&lt;/li&gt;
+&lt;li&gt;Non-Markdown page elements&lt;/li&gt;
+&lt;li&gt;Allows for very specific inputs into the page.&lt;/li&gt;
+&lt;li&gt;Accurate and very flexible control of media inputs (important)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Of course &lt;code&gt;hugo&lt;/code&gt; (currently) supports the use of both at the same time but with some minor issues. Ideally I would prefer to use one standard for blog posts and stick with it. For the sake of uniformity and simplicity.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s what I was previously doing when drafting a post:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Write it in Markdown for ease of writing and proofreading&lt;/li&gt;
+&lt;li&gt;Start &lt;code&gt;hugo server -D&lt;/code&gt; so that I can preview the page&lt;/li&gt;
+&lt;li&gt;Convert everything to HTML in the document&lt;/li&gt;
+&lt;li&gt;Check preview again&lt;/li&gt;
+&lt;li&gt;If it&amp;rsquo;s all good then publish.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Now the issue here should be obvious, I was effectively putting in twice the work for the same result. But this did mean that I had absolute control of the page contents and could ensure certain elements are displayed correctly if I wanted them to have a unique style or position that Markdown itself wouldn&amp;rsquo;t produce.&lt;/p&gt;
+&lt;p&gt;I also realised after the &lt;a href=&#34;https://dunkelheit.biz/blog/2021/learning-german.html&#34;&gt;Learning German&lt;/a&gt; entry that I could just take the HTML output from the &lt;code&gt;hugo&lt;/code&gt; output. Oops.&lt;/p&gt;
+&lt;p&gt;My goal was to eliminate steps 3 and 4 above. The easiest way to do this is to just eliminate HTML conversion of the entire document and use &lt;code&gt;html&lt;/code&gt; when needed instead.&lt;/p&gt;
+&lt;p&gt;This eliminates steps 3 and 4 as well as allowing me to control elements very specifically when needed and keeps the document readable.&lt;/p&gt;
+&lt;p&gt;So going forward all posts will be created this way unless it isn&amp;rsquo;t viable for the post type. All previous posts will be converted too. Top level pages AKA &amp;ldquo;base&amp;rdquo; pages will still be written in HTML for functional reasons.&lt;/p&gt;
+&lt;p&gt;Additionally the site will now be rendered using the &lt;code&gt;uglyURLs = true&lt;/code&gt; option as I don&amp;rsquo;t like the look of &lt;code&gt;/blog/post-name/index.html&lt;/code&gt; in the file tree.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Learning German</title>
       <link>https://dunkelheit.biz/blog/2021/learning-german.html</link>
-      <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 11 Jul 2021 07:00:00 +0000</pubDate>
       
       <guid>https://dunkelheit.biz/blog/2021/learning-german.html</guid>
-      <description>I have decided to learn German. I have always had an interest in learning another language but due to the terrible methodology used by the education system and cringe meme apps like DuoLingo I was never motivated enough to stick them out. However I recently came to discover the Michel Thomas method after reading these articles by Luke Smith: Notes on Learning Languages and Learning European Languages (Michel Thomas). I won&amp;rsquo;t bother to sumamrize them here but you should definetely read them if you are interested in learning a language.</description>
+      <description>&lt;p&gt;I have decided to learn German. I have always had an interest in learning another language but due to the terrible methodology used by the education system and cringe meme apps like DuoLingo I was never motivated enough to stick them out. However I recently came to discover the Michel Thomas method after reading these articles by Luke Smith: &lt;a href=&#34;https://lukesmith.xyz/articles/notes-on-learning-languages&#34;&gt;Notes on Learning Languages&lt;/a&gt; and &lt;a href=&#34;https://lukesmith.xyz/articles/learning-european-languages-michel-thomas&#34;&gt;Learning European Languages (Michel Thomas)&lt;/a&gt;. I won&amp;rsquo;t bother to sumamrize them here but you should definetely read them if you are interested in learning a language.&lt;/p&gt;
+&lt;p&gt;After reading these articles I was convinced to give the method a try. I will update this post every so often with my thoughts on the method so far.&lt;/p&gt;
+&lt;h3 id=&#34;so-why-german&#34;&gt;So why German?&lt;/h3&gt;
+&lt;p&gt;It&amp;rsquo;s probably the most relevant language for me to learn based on its similarities to English, my musical interests and the location of a lot of my friends. I would love to be able to travel there without being a &amp;ldquo;that guy&amp;rdquo; tourist that just speaks in English the whole time.&lt;/p&gt;
+&lt;p&gt;Additionally I believe that learning German will give me reason to explore other related languages. I have always found languages interesting, who knows maybe one day I will be able to speak to people on every continent? I&amp;rsquo;d also like to put the theory that thinking in multiple languages can give you a better understanding of concepts to the test.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Video Games Are Over</title>
       <link>https://dunkelheit.biz/blog/2021/video-games-are-over.html</link>
-      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 10 Jul 2021 07:00:00 +0000</pubDate>
       
       <guid>https://dunkelheit.biz/blog/2021/video-games-are-over.html</guid>
-      <description>Introduction: Modern video games are an industrialised product that satisfies checklists at the cost of a unique identity and product. They are deceptively marketted and maliciously monetized.
-Occasionally a video game will come out that is just trying to be a fun video game. These are few and far between.
-This is not a nostalgia post, modern video games are genuinely terrible.
-Why do they suck? The simple answer and the correct one is: money.</description>
+      <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction:&lt;/h3&gt;
+&lt;p&gt;Modern video games are an industrialised product that satisfies checklists at the cost of a unique identity and product. They are deceptively marketted and maliciously monetized.&lt;/p&gt;
+&lt;p&gt;Occasionally a video game will come out that is just trying to be a fun video game. These are few and far between.&lt;/p&gt;
+&lt;p&gt;This is not a nostalgia post, modern video games are genuinely terrible.&lt;/p&gt;
+&lt;h3 id=&#34;why-do-they-suck&#34;&gt;Why do they suck?&lt;/h3&gt;
+&lt;p&gt;The simple answer and the correct one is: money. Video games have been watered down and industrialised into a checklist of what sells and what gets social media reactions. Many businesses have been led to believe that social media exposure is free advertising. Anyone with a basic understanding of social media algorithms can tell you why this isn&amp;rsquo;t true.&lt;/p&gt;
+&lt;p&gt;Look at the explosion of so-called &amp;ldquo;indie&amp;rdquo; games over the last decade as proof that there is a demand for video games that are just fun video games.&lt;/p&gt;
+&lt;p&gt;Of course the &amp;ldquo;indie&amp;rdquo; title has become increasingly meaningless as the industrial video game corporations have co-opted it. Regardless there is clearly a desire for video games that are made &amp;ldquo;the old way&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;If these corporations just want to make money then why aren&amp;rsquo;t they aware that they are doing it wrong? The simple answer is, they are aware, they just don&amp;rsquo;t care. It&amp;rsquo;s a combination of the sunk-cost fallacy and a belief that you can &lt;del&gt;groom&lt;/del&gt; convince your customers to just deal with it. Think of the now infamous example of Diablo Immortal, where the fans were genuinely convinced it was a joke due to how ridiculous the premise was. Yet the corporate representative resorted to mockery.&lt;/p&gt;
+&lt;p&gt;Industrialised video games are produced with the budget of hollywood movies, with checklists (the developers cannot diverge from) of what marketting execs think will sell the product and they would rather divert resources to fighting criticism than taking it on board. All of this results in video games being designed for a an &amp;ldquo;average gamer&amp;rdquo; that doesn&amp;rsquo;t exist.&lt;/p&gt;
+&lt;h3 id=&#34;muh-nostalgia&#34;&gt;Muh nostalgia!&lt;/h3&gt;
+&lt;p&gt;Older games were designed differently, no one can dispute this. The way that they were designed respected the player&amp;rsquo;s intelligence and their time.&lt;/p&gt;
+&lt;p&gt;Additionally the technology to rinse your customers didn&amp;rsquo;t exist yet so even if the idea did cross someone&amp;rsquo;s mind it wasn&amp;rsquo;t implementable in a meaningful or functional way. This led to video games being designed to be challenging, fun, replayable since they wanted you to come back and buy the sequel.&lt;/p&gt;
+&lt;p&gt;Gamers devised their own ways of competing with one another (the origin of speedruns) but most importantly gamers owned their games, they could loan them to friends, they could sell what they didn&amp;rsquo;t like, they could rent to try, some developers even made demos so you didn&amp;rsquo;t need to rent.
+That&amp;rsquo;s not to say that every old game was great, of course not. A lot of them probably sucked. But the ones that didn&amp;rsquo;t suck are still talked about decades later, they are still played decades later, there are entire communities online dedicated to them that have been around almost as long as the games themselves. You won&amp;rsquo;t see this kind of community building effort for most modern games as they are replaced annually and are designed to be played by people that don&amp;rsquo;t exist.&lt;/p&gt;
+&lt;h3 id=&#34;solutions&#34;&gt;Solutions?&lt;/h3&gt;
+&lt;p&gt;Put simply there are three solutions to the problem of modern games:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Get a better hobby. This doesn&amp;rsquo;t mean you can&amp;rsquo;t go back and play your video games occasionally but being realistic any &amp;ldquo;hobby&amp;rdquo; that isn&amp;rsquo;t productive isn&amp;rsquo;t healthy.&lt;/li&gt;
+&lt;li&gt;Just sit back, relax, enjoy your older video games and wait for this accursed industry to collapse in on itself.&lt;/li&gt;
+&lt;li&gt;Only support developers that respect you as a customer, you can also download an emulator or get some classics from GOG.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The important part is that you recognise that modern games are not designed to be fun, but to be addictive and profitable at your expense.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

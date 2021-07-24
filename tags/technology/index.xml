@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>technology on Dunkelheit</title>
+    <link>https://dunkelheit.biz/tags/technology.html</link>
+    <description>Recent content in technology on Dunkelheit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 24 Jul 2021 08:20:25 +0000</lastBuildDate><atom:link href="https://dunkelheit.biz/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RSS Is Based</title>
+      <link>https://dunkelheit.biz/blog/2021/rss-is-based.html</link>
+      <pubDate>Sat, 24 Jul 2021 08:20:25 +0000</pubDate>
+      
+      <guid>https://dunkelheit.biz/blog/2021/rss-is-based.html</guid>
+      <description>I recently started using Newsboat for RSS.
+Getting a proper RSS setup has been on my &amp;ldquo;cozy setup&amp;rdquo; checklist for a while. It didn&amp;rsquo;t take much time at all to get it working either.
+I previously just used browser plug-ins for this however this approach is terrible in practice.
+Now that I have a proper setup using Newsboat I can truly appreciate RSS feeds and I would recommend using them to anyone that wants to keep up to date with things without engaging with social media.</description>
+    </item>
+    
+  </channel>
+</rss>

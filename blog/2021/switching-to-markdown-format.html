@@ -14,16 +14,7 @@
                 <h1>Dunkelheit
             
 		</header>
-        <nav>
-            			<ul>
-				<li><a href="/">🏡 Home</a></li>
-				<li><a href="/blog.html">📖 Feed</a></li>
-				<li><a href="/contact.html">📬️ Contact</a></li>
-				<li><a href="/index.xml"><img src="/pix/rss.svg" alt="RSS"> RSS</a></li>
-				<li><a href="/donate.html">💰 Donate</a></li>
-			</ul>
-
-        </nav>
+        
         <main>
 
 
@@ -61,7 +52,7 @@
 <li>If it&rsquo;s all good then publish.</li>
 </ol>
 <p>Now the issue here should be obvious, I was effectively putting in twice the work for the same result. But this did mean that I had absolute control of the page contents and could ensure certain elements are displayed correctly if I wanted them to have a unique style or position that Markdown itself wouldn&rsquo;t produce.</p>
-<p>I also realised after the <a href="/blog/learning-german">Learning German</a> entry that I could just take the HTML output from the <code>hugo</code> output. Oops.</p>
+<p>I also realised after the <a href="/blog/2021/learning-german.html">Learning German</a> entry that I could just take the HTML output from the <code>hugo</code> output. Oops.</p>
 <p>My goal was to eliminate steps 3 and 4 above. The easiest way to do this is to just eliminate HTML conversion of the entire document and use <code>html</code> when needed instead.</p>
 <p>This eliminates steps 3 and 4 as well as allowing me to control elements very specifically when needed and keeps the document readable.</p>
 <p>So going forward all posts will be created this way unless it isn&rsquo;t viable for the post type. All previous posts will be converted too. Top level pages AKA &ldquo;base&rdquo; pages will still be written in HTML for functional reasons.</p>
@@ -73,9 +64,7 @@
     <ul class="tag-list">
         <span>Tags: </span>
         
-            <li id="list-tag-meta"><a href="https://dunkelheit.biz/tags/meta.html">meta</a></li>
-        
-            <li id="list-tag-hugo"><a href="https://dunkelheit.biz/tags/hugo.html">hugo</a></li>
+            <a href="https://dunkelheit.biz/tags/updates.html"><li id="list-tag-updates">updates</li></a>
         
     </ul>
 </div>
@@ -84,11 +73,11 @@
             </main>
             <footer>
                 			<ul>
-				<li><a href="/">🏡 Home</a></li>
-				<li><a href="/blog.html">📖 Feed</a></li>
-				<li><a href="/contact.html">📬️ Contact</a></li>
-				<li><a href="/index.xml"><img src="/pix/rss.svg" alt="RSS"> RSS</a></li>
-				<li><a href="/donate.html">💰 Donate</a></li>
+				<a href="/"><li>🏡 Home</li></a>
+				<a href="/blog.html"><li>📖 Feed</li></a>
+				<a href="/contact.html"><li>📬️ Contact</li></a>
+				<a href="/index.xml"><li><img src="/pix/rss.svg" alt="RSS"> RSS</li></a>
+				<a href="/donate.html"><li>💰 Donate</li></a>
 			</ul>
 
             </footer>
