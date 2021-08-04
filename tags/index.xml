@@ -6,11 +6,38 @@
     <description>Recent content in Tags on Dunkelheit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 24 Jul 2021 08:20:25 +0000</lastBuildDate><atom:link href="https://dunkelheit.biz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Aug 2021 09:00:00 +0100</lastBuildDate><atom:link href="https://dunkelheit.biz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>updates</title>
+      <link>https://dunkelheit.biz/tags/updates.html</link>
+      <pubDate>Tue, 03 Aug 2021 09:00:00 +0100</pubDate>
+      
+      <guid>https://dunkelheit.biz/tags/updates.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://dunkelheit.biz/tags/linux.html</link>
+      <pubDate>Mon, 02 Aug 2021 09:00:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.biz/tags/linux.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>philosophy</title>
+      <link>https://dunkelheit.biz/tags/philosophy.html</link>
+      <pubDate>Mon, 02 Aug 2021 09:00:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.biz/tags/philosophy.html</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>software</title>
       <link>https://dunkelheit.biz/tags/software.html</link>
-      <pubDate>Sat, 24 Jul 2021 08:20:25 +0000</pubDate>
+      <pubDate>Mon, 02 Aug 2021 09:00:00 +0000</pubDate>
       
       <guid>https://dunkelheit.biz/tags/software.html</guid>
       <description></description>
@@ -19,18 +46,18 @@
     <item>
       <title>technology</title>
       <link>https://dunkelheit.biz/tags/technology.html</link>
-      <pubDate>Sat, 24 Jul 2021 08:20:25 +0000</pubDate>
+      <pubDate>Mon, 02 Aug 2021 09:00:00 +0000</pubDate>
       
       <guid>https://dunkelheit.biz/tags/technology.html</guid>
       <description></description>
     </item>
     
     <item>
-      <title>updates</title>
-      <link>https://dunkelheit.biz/tags/updates.html</link>
-      <pubDate>Fri, 16 Jul 2021 07:00:00 +0000</pubDate>
+      <title>video games</title>
+      <link>https://dunkelheit.biz/tags/video-games.html</link>
+      <pubDate>Sun, 25 Jul 2021 16:00:00 +0000</pubDate>
       
-      <guid>https://dunkelheit.biz/tags/updates.html</guid>
+      <guid>https://dunkelheit.biz/tags/video-games.html</guid>
       <description></description>
     </item>
     
@@ -40,15 +67,6 @@
       <pubDate>Sun, 11 Jul 2021 07:00:00 +0000</pubDate>
       
       <guid>https://dunkelheit.biz/tags/language.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>video games</title>
-      <link>https://dunkelheit.biz/tags/video-games.html</link>
-      <pubDate>Sat, 10 Jul 2021 07:00:00 +0000</pubDate>
-      
-      <guid>https://dunkelheit.biz/tags/video-games.html</guid>
       <description></description>
     </item>
     

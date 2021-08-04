@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: dunkelheit.biz
+Token: 7625ec3bb2ee38070f9a2a812cc5f163ebb70921bdb423e4a93292d31ec47aad
