@@ -1,5 +1,5 @@
-dunkelheit.biz
+themacca.xyz
 ------
 
-My personal blog / cozy hosting, find it at [dunkelheit.biz](dunkelheit.biz).
+My website, stolen from [dunkelheit.biz](dunkelheit.biz). 😈😈😈
 
