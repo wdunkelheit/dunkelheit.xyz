@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>updates on Dunkelheit Citizen</title>
+    <link>https://dunkelheit.xyz/tags/updates/</link>
+    <description>Recent content in updates on Dunkelheit Citizen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 23 Feb 2023 12:30:00 +0000</lastBuildDate><atom:link href="https://dunkelheit.xyz/tags/updates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Site Update February 2023</title>
+      <link>https://dunkelheit.xyz/blog/site-update/</link>
+      <pubDate>Thu, 23 Feb 2023 12:30:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.xyz/blog/site-update/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s been a while since I last updated the site so here&amp;rsquo;s a rundown on what&amp;rsquo;s new.&lt;/p&gt;
+&lt;h3 id=&#34;new-content&#34;&gt;New Content&lt;/h3&gt;
+&lt;p&gt;There is now a &lt;a href=&#34;https://dunkelheit.xyz/library&#34;&gt;library&lt;/a&gt; page where you can see all the books I own. It is an ongoing project and there are a lot of books missing from it that I have yet to catalogue. However if you find anything of interest on it and would like to contact me, please do so.&lt;/p&gt;
+&lt;p&gt;You can now find the long awaited Cookbook project at the &lt;a href=&#34;https://dunkelheit.xyz/recipes&#34;&gt;recipes&lt;/a&gt; page. It is a long awaited feature I am sure. It&amp;rsquo;s a bit empty at the moment but I will be filling it out from time to time. Read the Cookbook Now Live article linked below to find out more.&lt;/p&gt;
+&lt;p&gt;The domain name has now changed from &lt;code&gt;dunkelheit.biz&lt;/code&gt; to &lt;code&gt;dunkelheit.xyz&lt;/code&gt; and the old domain will expire within a month.&lt;/p&gt;
+&lt;h4 id=&#34;new-articles&#34;&gt;New Articles:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dunkelheit.xyz/blog/having-fun-is-trad&#34;&gt;Having Fun Is Trad&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dunkelheit.xyz/blog/against-cdns&#34;&gt;Against CDNs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dunkelheit.xyz/blog/necessary-evils-internet/&#34;&gt;Necessary Evils on the Internet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dunkelheit.xyz/blog/every-day-carry/&#34;&gt;Every Day Carry and Equipment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dunkelheit.xyz/blog/cookbook-now-live/&#34;&gt;Cookbook Now Live&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;housekeeping&#34;&gt;Housekeeping&lt;/h3&gt;
+&lt;p&gt;The home page and about me pages have been updated to include more accurate information and restructured a bit to ensure clarity. Please keep in mind that the YouTube and Odysee links are placeholders while I set those up. I&amp;rsquo;ll update this post when it has been fixed.&lt;/p&gt;
+&lt;h3 id=&#34;known-issues&#34;&gt;Known Issues&lt;/h3&gt;
+&lt;p&gt;Email is down, I will attempt to fix it at some point when I am less busy. For now you can contact me via twitter &lt;a href=&#34;https://twitter.com/dunkelheitxyz&#34;&gt;&lt;code&gt;@Dunkelheitxyz&lt;/code&gt;&lt;/a&gt;. If you are familiar with my content you will know that I am against social media and twitter in particular is my usual go to example of why. Check the Necessary Evils on the Internet article linked above to see some of my more recent thinking on the matter. I am still not convinced it is worth keeping a twitter account long term, for now it is a stopgap fix for a problem I don&amp;rsquo;t have the time to find a better solution to.&lt;/p&gt;
+&lt;p&gt;The YouTube and Odysee links don&amp;rsquo;t work. This is on purpose, they are placeholders.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cookbook Now Live</title>
+      <link>https://dunkelheit.xyz/blog/cookbook-now-live/</link>
+      <pubDate>Wed, 22 Feb 2023 22:00:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.xyz/blog/cookbook-now-live/</guid>
+      <description>&lt;p&gt;The cookbook is now live. You can find it &lt;a href=&#34;https://dunkelheit.xyz/recipes/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It has a separate RSS feed from the one for blog posts. You may need to adjust your existing RSS link as I made some changes to that on the back end. You can find the most up to date versions of the RSS links at the bottom of this page and on the cookbook page.&lt;/p&gt;
+&lt;p&gt;The cookbook is a bit barren right now but I figured it was better have it public than not at this time.&lt;/p&gt;
+&lt;p&gt;Happy cooking!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Domain Name Change Update</title>
+      <link>https://dunkelheit.xyz/blog/domain-name-change-update/</link>
+      <pubDate>Sat, 07 Jan 2023 18:30:00 +0100</pubDate>
+      
+      <guid>https://dunkelheit.xyz/blog/domain-name-change-update/</guid>
+      <description>&lt;p&gt;I have decided against the use of the &lt;code&gt;city&lt;/code&gt; TLD for the site and will be returning to tradition and using the &lt;code&gt;xyz&lt;/code&gt; TLD.&lt;/p&gt;
+&lt;p&gt;My reasoning for choosing the &lt;code&gt;xyz&lt;/code&gt; TLD over &lt;code&gt;city&lt;/code&gt; is twofold. The &lt;code&gt;xyz&lt;/code&gt; TLD more accurately represents the end of the internet theme and it is much cheaper which fits with the minimalist theme.&lt;/p&gt;
+&lt;p&gt;The update will occur at some point in the coming days. The current domain will continue to work until it expires.&lt;/p&gt;
+&lt;p&gt;RSS feeds should continue to work on the old domain once the domain change occurs. Once the old domain expires however it will no longer update. Please update your RSS feeds to reflect the new domain. The new feed can be found &lt;a href=&#34;https://dunkelheit.xyz/index.xml&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Email will change to the new domain at some point in the future too. I will make sure to update the site when this occurs. For now assume that the &lt;code&gt;w@dunkelheit.biz&lt;/code&gt; address is no longer functional.&lt;/p&gt;
+&lt;p&gt;Please update your RSS, email contacts, etc.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Library Update</title>
+      <link>https://dunkelheit.xyz/blog/library-update/</link>
+      <pubDate>Fri, 06 Jan 2023 12:30:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.xyz/blog/library-update/</guid>
+      <description>&lt;p&gt;I finally got around to cataloging (some of) my personal library and have made a page dedicated to the books of my library for those interested.&lt;/p&gt;
+&lt;p&gt;The plan is to use this as a means of keeping track of what books I have, which of them I have read and whether there is any content I have relating to it. As well as keeping a list I can access when out and about in case I need a reminder of which books I own. It is also a useful way to share my library with friends that may wish to borrow something from me.&lt;/p&gt;
+&lt;p&gt;I haven&amp;rsquo;t decided on a system of sorting the page yet. I checked &lt;a href=&#34;https://lukesmith.xyz/library&#34;&gt;Luke Smith&amp;rsquo;s library&lt;/a&gt; page and saw that he uses the Library of Congress system. Which doesn&amp;rsquo;t seem appropriate for my uses. For now I have opted for categorising books based on which genre I believe is most appropriate.&lt;/p&gt;
+&lt;p&gt;There is also the question of whether to include the likes of manga or mass market paperback fiction titles as these aren&amp;rsquo;t as meaningful as other texts although most of the ones I find myself owning are of a higher quality than one would find on the best sellers list or the advertising shelves at a chain book shop.&lt;/p&gt;
+&lt;p&gt;One reason not to include manga is simply that I have no idea how to do include them elegantly. Do I list them by author or illustrator? Many of them have multiple. For now I have settled on including them by name only until I can determine a better way to include them that is more consistent with the rest of the catalog.&lt;/p&gt;
+&lt;p&gt;If you would like to check out the library, it can be found &lt;a href=&#34;https://dunkelheit.xyz/library&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Switching to Markdown Format</title>
+      <link>https://dunkelheit.xyz/blog/switching-to-markdown-format/</link>
+      <pubDate>Fri, 16 Jul 2021 07:00:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.xyz/blog/switching-to-markdown-format/</guid>
+      <description>&lt;p&gt;I am starting to get comfortable with &lt;code&gt;hugo&lt;/code&gt; as a static site generator, I know I haven&amp;rsquo;t made my theme the &amp;ldquo;correct way&amp;rdquo; but for now it works to an acceptable minimum and most importantly the pages it produces are formatted perfectly.&lt;/p&gt;
+&lt;p&gt;I had an issue in that I couldn&amp;rsquo;t decide if I wanted to use Markdown or HTML when writing blog posts. The issue may seem silly (it is) but my reasons for having it were pretty straight forward:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Autism&lt;/li&gt;
+&lt;li&gt;Markdown:
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;Just Works&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Easy to read and write (important for blogging)&lt;/li&gt;
+&lt;li&gt;Hugo&amp;rsquo;s intended language (kinda)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;HTML:
+&lt;ul&gt;
+&lt;li&gt;Gives me total control via element ids and tags&lt;/li&gt;
+&lt;li&gt;Non-Markdown page elements&lt;/li&gt;
+&lt;li&gt;Allows for very specific inputs into the page.&lt;/li&gt;
+&lt;li&gt;Accurate and very flexible control of media inputs (important)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Of course &lt;code&gt;hugo&lt;/code&gt; (currently) supports the use of both at the same time but with some minor issues. Ideally I would prefer to use one standard for blog posts and stick with it. For the sake of uniformity and simplicity.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s what I was previously doing when drafting a post:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Write it in Markdown for ease of writing and proofreading&lt;/li&gt;
+&lt;li&gt;Start &lt;code&gt;hugo server -D&lt;/code&gt; so that I can preview the page&lt;/li&gt;
+&lt;li&gt;Convert everything to HTML in the document&lt;/li&gt;
+&lt;li&gt;Check preview again&lt;/li&gt;
+&lt;li&gt;If it&amp;rsquo;s all good then publish.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Now the issue here should be obvious, I was effectively putting in twice the work for the same result. But this did mean that I had absolute control of the page contents and could ensure certain elements are displayed correctly if I wanted them to have a unique style or position that Markdown itself wouldn&amp;rsquo;t produce.&lt;/p&gt;
+&lt;p&gt;I also realised after the &lt;a href=&#34;learning-german&#34;&gt;Learning German&lt;/a&gt; entry that I could just take the HTML output from the &lt;code&gt;hugo&lt;/code&gt; output. Oops.&lt;/p&gt;
+&lt;p&gt;My goal was to eliminate steps 3 and 4 above. The easiest way to do this is to just eliminate HTML conversion of the entire document and use &lt;code&gt;HTML&lt;/code&gt; when needed instead.&lt;/p&gt;
+&lt;p&gt;This eliminates steps 3 and 4 as well as allowing me to control elements very specifically when needed and keeps the document readable.&lt;/p&gt;
+&lt;p&gt;So going forward all posts will be created this way unless it isn&amp;rsquo;t viable for the post type. All previous posts will be converted too. Top level pages AKA &amp;ldquo;base&amp;rdquo; pages will still be written in HTML for functional reasons.&lt;/p&gt;
+&lt;p&gt;Additionally the site will now be rendered using the &lt;code&gt;uglyURLs = true&lt;/code&gt; option as I don&amp;rsquo;t like the look of &lt;code&gt;/blog/post-name/index.html&lt;/code&gt; in the file tree.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on Dunkelheit Citizen</title>
+    <link>https://dunkelheit.xyz/tags/linux/</link>
+    <description>Recent content in linux on Dunkelheit Citizen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 02 Apr 2022 09:20:00 +0100</lastBuildDate><atom:link href="https://dunkelheit.xyz/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Encrypting an External Storage Device</title>
+      <link>https://dunkelheit.xyz/blog/encrypting-an-external-storage-device/</link>
+      <pubDate>Sat, 02 Apr 2022 09:20:00 +0100</pubDate>
+      
+      <guid>https://dunkelheit.xyz/blog/encrypting-an-external-storage-device/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s a good idea to keep backups of important data, it&amp;rsquo;s an even better idea to make sure only you can access them.&lt;/p&gt;
+&lt;p&gt;This is a guide on how to encrypt an external storage device for use on a Linux system.&lt;/p&gt;
+&lt;h3 id=&#34;storage-devices&#34;&gt;Storage Devices&lt;/h3&gt;
+&lt;p&gt;This guide should be relatively universal for most external storage devices.&lt;/p&gt;
+&lt;p&gt;For this example I am assuming you know what kind of storage device is best for your use case and that you are using a NEW device.&lt;/p&gt;
+&lt;p&gt;&lt;strong style=&#34;color:red;&#34;&gt;Important Notice:&lt;/strong&gt; If you are using a device that you have used previously you may wish to securely wipe all data on it first. I do not have a guide for this at this time. I will update this post in the future if that changes.&lt;/p&gt;
+&lt;h3 id=&#34;requirements&#34;&gt;Requirements:&lt;/h3&gt;
+&lt;p&gt;You will need the following to follow this guide along:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A computer running a GNU/Linux operating system.&lt;/li&gt;
+&lt;li&gt;An external storage device.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;cryptsetup&lt;/code&gt; package installed.
+&lt;ul&gt;
+&lt;li&gt;Name may vary based on distro.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;encrypting-the-device&#34;&gt;Encrypting The Device&lt;/h3&gt;
+&lt;h4 id=&#34;1-find-your-devices-path&#34;&gt;1. Find your device&amp;rsquo;s path.&lt;/h4&gt;
+&lt;p&gt;You can do so with the following command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo fdisk -l
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The output of this command will list information about each storage device connected to your computer. Such as it&amp;rsquo;s total capacity in GiB units and the model number. You can use this information to determine which disk is the one you intend to write to.&lt;/p&gt;
+&lt;p&gt;From this point forward I will be referring to this device as /dev/sdx.&lt;/p&gt;
+&lt;h4 id=&#34;2-set-up-partition-table&#34;&gt;2. Set up partition table.&lt;/h4&gt;
+&lt;p&gt;Most drives when purchased will come with the msdos partition table, you don&amp;rsquo;t need this for a Linux machine. The following command will change it to use the GPT partition table.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo parted /dev/sdx mklabel gpt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The drive now has the GPT partition table format.&lt;/p&gt;
+&lt;h4 id=&#34;3-creating-a-luks-device&#34;&gt;3. Creating a LUKS device.&lt;/h4&gt;
+&lt;p&gt;We will now create the LUKS device. Using the following command.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo cryptsetup luksFormat /dev/sdx
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now it will ask you for a password and to confirm it. I assume you know how to choose a strong one.&lt;/p&gt;
+&lt;h4 id=&#34;4-mapping-the-device&#34;&gt;4. Mapping the device.&lt;/h4&gt;
+&lt;p&gt;We will now mount the device to the mapper. This allows us to use it like a normal storage device.&lt;/p&gt;
+&lt;p&gt;You will want to name the device at this stage, we will refer to your given name as DevName from here on.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo cryptsetup luksOpen /dev/sdx DevName
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The device is now available for usage as a normal storage device would be if it were unmounted.&lt;/p&gt;
+&lt;h4 id=&#34;5-formatting-the-device&#34;&gt;5. Formatting the device.&lt;/h4&gt;
+&lt;p&gt;At this stage we will be formatting the device as the ext4 Linux format. To do that we run the following command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo mkfs.ext4 /dev/mapper/DevName
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The device now has the ext4 format and can be mounted.&lt;/p&gt;
+&lt;h3 id=&#34;mounting-the-device&#34;&gt;Mounting The Device&lt;/h3&gt;
+&lt;p&gt;At this stage you can mount the device the way you normally would an external device.&lt;/p&gt;
+&lt;p&gt;You can use your GUI file manager such as &lt;code&gt;pcmanfam&lt;/code&gt; or &lt;code&gt;dolphin&lt;/code&gt; to open it.&lt;/p&gt;
+&lt;p&gt;You can also do the following to open it using the terminal:&lt;/p&gt;
+&lt;h4 id=&#34;1-repeat-step-4-above-mapping-the-device&#34;&gt;1. Repeat step 4 above. (Mapping the device)&lt;/h4&gt;
+&lt;p&gt;You can skip this if it is still mapped from earlier.&lt;/p&gt;
+&lt;h4 id=&#34;2-mount-the-drive&#34;&gt;2. Mount the drive.&lt;/h4&gt;
+&lt;p&gt;You can now mount the device as you would normally do so for an external device via the terminal.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo mount /dev/mapper/DevName &amp;lt;/path/to/mount/point/&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;unmounting-the-device&#34;&gt;Unmounting the device&lt;/h3&gt;
+&lt;h4 id=&#34;1-unmounting-the-drive&#34;&gt;1. Unmounting the drive.&lt;/h4&gt;
+&lt;p&gt;You can unmount the drive using the following command.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo umount &amp;lt;/path/to/mount/point&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;2-unmapping-the-device&#34;&gt;2. Unmapping the device.&lt;/h4&gt;
+&lt;p&gt;You can unmap the device using the following command.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo cryptsetup luksClose DevName
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can now safely remove the device from the computer.&lt;/p&gt;
+&lt;h3 id=&#34;tips&#34;&gt;Tips:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;If you prefer to use a graphical file manager then you should use one.
+&lt;ul&gt;
+&lt;li&gt;In fact for external devices I recommend doing so.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;You can use other formats for the disk if you wish.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Stop Bloating Your Shell</title>
+      <link>https://dunkelheit.xyz/blog/stop-bloating-your-shell/</link>
+      <pubDate>Sat, 02 Oct 2021 09:00:00 +0100</pubDate>
+      
+      <guid>https://dunkelheit.xyz/blog/stop-bloating-your-shell/</guid>
+      <description>&lt;p&gt;Probably my favourite part of using Linux is that I can customise my experience.&lt;/p&gt;
+&lt;p&gt;The customisation options for some of the fundamental tools I use are endless and they are customisable by design. I have probably spent more time customising, modifying and tweaking my shell configurations than any other piece of software on my system.&lt;/p&gt;
+&lt;p&gt;For this article I will be using &lt;code&gt;zsh&lt;/code&gt; as the example shell unless stated otherwise.&lt;/p&gt;
+&lt;h3 id=&#34;a-shell-is-a-tool-not-a-toy&#34;&gt;A shell is a tool, not a toy&lt;/h3&gt;
+&lt;p&gt;Simply put the shell is a tool. Whether you are using it interactively or you are scripting tasks, you must use your shell correctly.&lt;/p&gt;
+&lt;p&gt;Since the shell is a tool you should be more concerned with what it is for than how it looks. You should also be aware of the dangers of using it incorrectly and the dangers of misunderstanding it while using it.&lt;/p&gt;
+&lt;p&gt;Most shells support a form of regex which allows you to be as explicit or implicit as you need when creating a command to be run. The use of the &lt;code&gt;*&lt;/code&gt; on its own in shell scripts should be avoided for this reason. You don&amp;rsquo;t want to accidentally delete your entire home folder.&lt;/p&gt;
+&lt;h3 id=&#34;you-dont-need-plugin-managers&#34;&gt;You Don&amp;rsquo;t Need Plugin Managers&lt;/h3&gt;
+&lt;p&gt;The use of plugin managers for a shell is peak soydev and a completely ridiculous concept, so why do so many people fall for it? The answer is simple, they are soydevs and do not understand the shell.&lt;/p&gt;
+&lt;p&gt;The most popular plugin manager seems to be &lt;code&gt;oh-my-zsh&lt;/code&gt; for the &lt;code&gt;zsh&lt;/code&gt; shell. It is nothing more than an obfuscated fronted for features that are built into &lt;code&gt;zsh&lt;/code&gt;. You do not need it to install anything. You can &lt;code&gt;source&lt;/code&gt; these plugins manually in your &lt;code&gt;.zshrc&lt;/code&gt; file.&lt;/p&gt;
+&lt;p&gt;Using these managers makes your shell take longer to load, adds unneeded complexity and causes problems if you want to do something outside of its scope. Not only that but it turns your &lt;code&gt;.zshrc&lt;/code&gt; file into a complete and utter mess for no reason.&lt;/p&gt;
+&lt;p&gt;Stop using them, you don&amp;rsquo;t need them. It&amp;rsquo;s lazy and encourages bad practices.&lt;/p&gt;
+&lt;h3 id=&#34;make-your-own-plugins&#34;&gt;Make your own plugins!&lt;/h3&gt;
+&lt;p&gt;Do you have a ridiculous number of aliases? Would you prefer not to scroll through them? You can make these into their own plugin!&lt;/p&gt;
+&lt;p&gt;As I mentioned above with how to load a plugin you simply need to source the plugin file. Plugin files for &lt;code&gt;zsh&lt;/code&gt; are actually just &lt;code&gt;.zsh&lt;/code&gt; files and you can make your own. All you need to do is place your aliases in a new file, place the file somewhere appropriate, ensure that the file&amp;rsquo;s shebang is correct: &lt;code&gt;#!/bin/zsh&lt;/code&gt; and then source that file in the .zshrc file like so:
+&lt;code&gt;source /path/to/new/alias/plugin.zsh 2&amp;gt;/dev/null&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;I personally don&amp;rsquo;t do this with my aliases and would recommend not doing so but this is a good example of how plugins work, they are just &lt;code&gt;.zsh&lt;/code&gt; scripts!&lt;/p&gt;
+&lt;h3 id=&#34;aliasing-correctly&#34;&gt;Aliasing correctly.&lt;/h3&gt;
+&lt;p&gt;Aliases are probably my favourite part of using the shell for most of my needs. You can ensure that a command such as &lt;code&gt;ls&lt;/code&gt; always uses colours, you can create adjacently named commands such as &lt;code&gt;ll&lt;/code&gt; for example to run &lt;code&gt;ls -l&lt;/code&gt; when needed.&lt;/p&gt;
+&lt;p&gt;Additionally you can bind scripts and long and complicated single line commands to a single word for ease of use. For example I use &lt;code&gt;dotfiles&lt;/code&gt; for managing my dotfiles git repository, I have some scripts that I also like to invoke for things such as checking for updates from all programs on my system, checking crypto prices, etc that I can do with a single word instead of writing the full file path. Although I do I keep these scripts in my &lt;code&gt;PATH&lt;/code&gt; I use a naming convention that makes it easier to tell what script it is but it is easier to just invoke them with an alias instead.&lt;/p&gt;
+&lt;p&gt;One thing you should not do with aliases however is use them to replace a program. It is bad practice to &amp;ldquo;rename&amp;rdquo; a core program such as &lt;code&gt;ls&lt;/code&gt; with an alternative you found online. You should instead be using this tool by its name so that you are aware of what you are doing. Using aliases to obfuscate what you are doing is dangerous.&lt;/p&gt;
+&lt;h3 id=&#34;shebang&#34;&gt;Shebang&lt;/h3&gt;
+&lt;p&gt;The shebang (shell bang) is used to ensure that the correct shell language is used when a file is run. For example &lt;code&gt;#!/bin/sh&lt;/code&gt; would be used if a script is POSIX compliant only and uses no Non-POSIX commands. For example if you write a script in &lt;code&gt;BASH&lt;/code&gt; and it uses bashisms, then your shebang should be &lt;code&gt;#!/bin/bash&lt;/code&gt; instead.&lt;/p&gt;
+&lt;p&gt;Setting the shebang in your scripts correctly means that when you invoke them from another shell the correct shell program is used to interpret the script. There are tools for testing your shell scripts so that you know what shebang to use, what adjustments to make to use, etc. I personally quite like &lt;code&gt;shellcheck&lt;/code&gt; but there are other options out there. However you should not rely on these tools and should be familiar with the commands you are using and how they work before committing them to a script. You can always check their man pages or other documentation before you commit to their use.&lt;/p&gt;
+&lt;p&gt;Ideally all scripts should be POSIX compliant only, bashisms are very tempting to use as they do give you more options for your script but there is a good chance you just do not need them.&lt;/p&gt;
+&lt;h3 id=&#34;remote-shells&#34;&gt;Remote Shells&lt;/h3&gt;
+&lt;p&gt;If you connect to other devices using a tool like &lt;code&gt;ssh&lt;/code&gt; then you should ensure that the remote user&amp;rsquo;s shell config is configured correctly for this. A few examples of what not to do are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Invocation of programs with &lt;code&gt;stdout&lt;/code&gt; returns.&lt;/li&gt;
+&lt;li&gt;Hard declaring terminal (and emulator) compatibility.&lt;/li&gt;
+&lt;li&gt;Starting background processes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;additional-recommendations&#34;&gt;Additional recommendations&lt;/h3&gt;
+&lt;p&gt;When declaring your &lt;code&gt;PATH&lt;/code&gt; variable you should do so explicitly, it may seem fun to use a script to do this but that is additional startup logic that you do not need and a script that you now need to maintain. Additionally you should not be declaring the &lt;code&gt;PATH&lt;/code&gt; in your &lt;code&gt;.zshrc&lt;/code&gt; file it should be declared in your &lt;code&gt;.zprofile&lt;/code&gt; file so that your application launcher (assuming dmenu) is &lt;code&gt;PATH&lt;/code&gt; aware.&lt;/p&gt;
+&lt;p&gt;So instead of using a script that iterates through all the sub-directories of your &lt;code&gt;.local/bin/&lt;/code&gt; directory just declare them like so:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;export PATH&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$PATH&lt;span style=&#34;color:#e6db74&#34;&gt;:&lt;/span&gt;$HOME&lt;span style=&#34;color:#e6db74&#34;&gt;/.local/bin/&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;export PATH&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$PATH&lt;span style=&#34;color:#e6db74&#34;&gt;:&lt;/span&gt;$HOME&lt;span style=&#34;color:#e6db74&#34;&gt;/.local/bin/go&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;export PATH&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$PATH&lt;span style=&#34;color:#e6db74&#34;&gt;:&lt;/span&gt;$HOME&lt;span style=&#34;color:#e6db74&#34;&gt;/.local/bin/sh&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This example is from my &lt;code&gt;.zshrc&lt;/code&gt; file, which you can find here: &lt;a href=&#34;https://gitlab.com/wdunkelheit/dotfiles/-/blob/master/.config/zsh/.zshrc&#34;&gt;GitLab&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;learning-process&#34;&gt;Learning process&lt;/h3&gt;
+&lt;p&gt;Ultimately, using the shell is a learning process. The more you use it and tinker with it they more you will learn. Feel free to &lt;a href=&#34;https://dunkelheit.xyz/contact&#34;&gt;email me&lt;/a&gt; about this subject if you would like help or would like to correct anything I have said.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>I Dont Care If You Use Linux</title>
+      <link>https://dunkelheit.xyz/blog/i-dont-care-if-you-use-linux/</link>
+      <pubDate>Sun, 29 Aug 2021 19:30:00 +0100</pubDate>
+      
+      <guid>https://dunkelheit.xyz/blog/i-dont-care-if-you-use-linux/</guid>
+      <description>&lt;p&gt;You may have seen my previous post about Free (as in freedom) software and came to the conclusion that I want to &amp;ldquo;convert&amp;rdquo; normies to using Linux. This is not the case.&lt;/p&gt;
+&lt;p&gt;I do not care if you use Linux or not, I do not care what distro you use either. Whatever works for you, works for you and that&amp;rsquo;s great.&lt;/p&gt;
+&lt;p&gt;The reason I recommend that you use a Linux based OS is not that I personally gain from you doing so but that you will gain from it. I have no attachment to what you use or how you use it. Linux fanboyism is a ridiculous concept.&lt;/p&gt;
+&lt;h3 id=&#34;further-confusion&#34;&gt;Further Confusion&lt;/h3&gt;
+&lt;p&gt;Regarding the &amp;ldquo;What Does The Steam Deck mean?&amp;rdquo; post, someone read it and completely misunderstood it. They were under the impression that I wish to &amp;ldquo;convert&amp;rdquo; gamers to Linux. LOL.&lt;/p&gt;
+&lt;p&gt;I had intended to delete that post for being crap anyway, which I did.&lt;/p&gt;
+&lt;p&gt;The point I was trying to make could be made in a sentence but I tried to give too much context. So I will make my point here and consider the issue resolved:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The Steam Deck will put more eyes on Linux as a gaming platform. It will not convert the masses to a new operating system that they have no apparent need for. This will not benefit me, I don&amp;rsquo;t really care.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;With that out of the way let&amp;rsquo;s get to the main point.&lt;/p&gt;
+&lt;h2 id=&#34;i-dont-care-bro&#34;&gt;I Don&amp;rsquo;t Care Bro&lt;/h2&gt;
+&lt;p&gt;Simply put if you don&amp;rsquo;t use Linux I don&amp;rsquo;t care and more importantly, if you do use Linux I don&amp;rsquo;t care either.&lt;/p&gt;
+&lt;p&gt;I have absolutely no need to know or care for what operating system you use.&lt;/p&gt;
+&lt;h2 id=&#34;the-consumer-issue&#34;&gt;The Consumer Issue&lt;/h2&gt;
+&lt;p&gt;The advent of Linux consumerism has reached its twilight, we now live in a world where people wear Tux t-shirts unironically and discuss their desktop environment of choice as if it is their favourite sportsball team.&lt;/p&gt;
+&lt;p&gt;What is a Linux consumer? A Linux™️ consumer is someone that doesn&amp;rsquo;t use Linux because they want a Unix like free software operating system, they are just anti-Windows and use Linux as if it were Windows.&lt;/p&gt;
+&lt;p&gt;I estimate that about 60-70% of people with a Linux based OS on their personal computer would fall under the category of a Linux consumer and as I stated above. I don&amp;rsquo;t care.&lt;/p&gt;
+&lt;p&gt;A typical example is someone that installs whatever meme distro they were shilled then goes on to use Google and Microsoft services, integrating them into every level of their workflow and consumption cycles. It really is an impressive example of cognitive dissonance.&lt;/p&gt;
+&lt;p&gt;Consuming Linux is a mindset that I just don&amp;rsquo;t have the time or patience to entertain.&lt;/p&gt;
+&lt;p&gt;Simply put if you need to attach part of your identity to the operating system that you use, you need to get a life.&lt;/p&gt;
+&lt;h2 id=&#34;converting-normies&#34;&gt;Converting Normies&lt;/h2&gt;
+&lt;p&gt;This is simply not an issue.&lt;/p&gt;
+&lt;p&gt;The only benefit a normie will get from switching to Linux is that their 5 year old laptop won&amp;rsquo;t run to a halt and can still get security patches. The real normie operating system is Google Chrome after all.&lt;/p&gt;
+&lt;p&gt;They don&amp;rsquo;t care about software, ethics, etc. They use their computer to write their homework, read their emails, watch cat videos and buy junk from Amazon. They are content and happy if they can do this, you won&amp;rsquo;t convince them to change.&lt;/p&gt;
+&lt;h2 id=&#34;youre-just-an-elitist&#34;&gt;&amp;ldquo;You&amp;rsquo;re just an elitist!&amp;rdquo;&lt;/h2&gt;
+&lt;img src=&#34;https://dunkelheit.xyz/blog/i-dont-care-if-you-use-linux/yeschad.webp&#34; style=&#34;height:120px; margin:auto; display:block&#34;&gt;
+&lt;p style=&#34;text-align: center; &#34;&gt;Yes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Free As In Freedom</title>
+      <link>https://dunkelheit.xyz/blog/free-as-in-freedom/</link>
+      <pubDate>Mon, 02 Aug 2021 09:00:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.xyz/blog/free-as-in-freedom/</guid>
+      <description>&lt;p&gt;Libre, not gratis.&lt;/p&gt;
+&lt;p&gt;I won&amp;rsquo;t go into the specifics of Free Software in this article, if you would like to know more check the &lt;a href=&#34;#references&#34;&gt;references&lt;/a&gt; at the bottom of the page.&lt;/p&gt;
+&lt;h2 id=&#34;freedom-is-non-negotiable&#34;&gt;Freedom is non-negotiable&lt;/h2&gt;
+&lt;img class=&#34;memeright&#34; src=&#34;https://dunkelheit.xyz/blog/free-as-in-freedom/freedom.webp&#34; alt=&#34;GNU Pepe&#34; title=&#34;GNU Pepe&#34;&gt;
+&lt;p&gt;Your freedom as a user is the most important aspect of the software that you use.&lt;/p&gt;
+&lt;p&gt;A common phrase found online regarding services such as search engines and email service providers goes something like &amp;ldquo;if it&amp;rsquo;s free then you are the product&amp;rdquo;. This is a fairly good summary as it implies (accurately) that these service providers see &lt;strong&gt;YOU&lt;/strong&gt; as an extension of their property.&lt;/p&gt;
+&lt;p&gt;The issue with this statement is the implication that software that is paid for will respect your rights. This is of course not true.&lt;/p&gt;
+&lt;p&gt;The solution to this problem is straightforward. Don&amp;rsquo;t use them. I&amp;rsquo;m not suggesting a boycott (boycotts don&amp;rsquo;t work lol) I am actually just suggesting that you opt out and choose to use Free Software.&lt;/p&gt;
+&lt;h2 id=&#34;make-a-change&#34;&gt;Make a change&lt;/h2&gt;
+&lt;p&gt;The most significant services you can change are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Email Provider&lt;/li&gt;
+&lt;li&gt;Office Suite&lt;/li&gt;
+&lt;li&gt;Operating System&lt;/li&gt;
+&lt;li&gt;Search Engine&lt;/li&gt;
+&lt;li&gt;Web Browser&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You should also drop social media and streaming services.&lt;/p&gt;
+&lt;p&gt;It may seem daunting to have to switch all of your service providers but you don&amp;rsquo;t need to do it all at once. In fact if you do it slowly over time that is perfectly fine. You may find that you have to do so anyway if you keep on top of sanitising your email inbox, have ongoing projects or need access to a given social media platform to stay in contact with family.&lt;/p&gt;
+&lt;p&gt;In the latter case you may wish to get them onboard with switching to Free Software and Libre services too!&lt;/p&gt;
+&lt;p&gt;Every proprietary service you currently use likely has a Free Software equivalent. If it doesn&amp;rsquo;t then you probably never needed it.&lt;/p&gt;
+&lt;h2 id=&#34;regarding-video-games-and-drm&#34;&gt;Regarding Video Games and DRM&lt;/h2&gt;
+&lt;p&gt;Video games are almost always proprietary. If you want to play them there are ways to do so on Linux including native Linux binaries. However for those that don&amp;rsquo;t have native binaries you may experience issues with their &amp;ldquo;Anti-Cheat&amp;rdquo; or DRM. I recommend just not buying games that have intrusive layers like that in the first place, it is unacceptable for these companies to treat customers this way.&lt;/p&gt;
+&lt;p&gt;Stay away from streaming services like Netflix and Spotify. Buy an SD card instead, store your music on that and stick it in your phone. Streaming services take your money and give you nothing in return, you do not own what you &amp;ldquo;stream&amp;rdquo; they are ripping you off.&lt;/p&gt;
+&lt;h2 id=&#34;dont-be-fooled&#34;&gt;Don&amp;rsquo;t be fooled&lt;/h2&gt;
+&lt;p&gt;Open Source and Free Software are not the same thing and whilst many Open Source programs would fit the definition of Free Software in practice this is not true of all Open Source programs.&lt;/p&gt;
+&lt;p&gt;For example, the popular editing suite Visual Studio Code is not free software due to its inclusion of anti-features such as telemetry and centralisation of integrated services.&lt;/p&gt;
+&lt;p&gt;Another example is Telegram, the client software uses a modified GPL3 that makes it non-free and the server software is completely proprietary. Telegram is fundamentally no different from using WhatsApp in terms of user freedoms and privacy.&lt;/p&gt;
+&lt;p&gt;A common misconception is that Android devices are &amp;ldquo;Free&amp;rdquo; and &amp;ldquo;Open Source&amp;rdquo; but this couldn&amp;rsquo;t be further from the truth. Out of the box these devices do not run Free Software or Open Source software. They run proprietary builds of a semi-open source project but the closed source proprietary nature of the out of the box device makes it a non-free device.&lt;/p&gt;
+&lt;p&gt;Many of these devices can be modified with Free and Open Source Android forks such as LineageOS and GrapheneOS. With GrapheneOS being the superior choice if you own a Google Pixel device.&lt;/p&gt;
+&lt;h2 id=&#34;im-happy-to-help&#34;&gt;I&amp;rsquo;m happy to help&lt;/h2&gt;
+&lt;p&gt;If you would like advice or some pointers or if you would like to discuss the topics discussed here feel free to &lt;a href=&#34;https://dunkelheit.xyz/contact&#34;&gt;contact me&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I will likely publish articles on switching services in the future so make sure to subscribe to the RSS.&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gnu.org/philosophy/free-sw.html&#34;&gt;What is Free Software? | GNU&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lukesmith.xyz/articles/why-i-use-the-gpl-and-not-cuck-licenses&#34;&gt;Why I Use the GPL and Not Cuck Licenses | Luke Smith&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Free As In Freedom: Richard Stallman&amp;rsquo;s Crusade For Free Software, Sam Williams - ISBN-13: 978-0-59-600287-4&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

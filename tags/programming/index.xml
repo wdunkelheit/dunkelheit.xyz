@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programming on Dunkelheit Citizen</title>
+    <link>https://dunkelheit.xyz/tags/programming/</link>
+    <description>Recent content in programming on Dunkelheit Citizen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 19 Jul 2022 21:00:00 +0100</lastBuildDate><atom:link href="https://dunkelheit.xyz/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An Introduction to Git Etiquette</title>
+      <link>https://dunkelheit.xyz/blog/an-introduction-to-git-etiquette/</link>
+      <pubDate>Tue, 19 Jul 2022 21:00:00 +0100</pubDate>
+      
+      <guid>https://dunkelheit.xyz/blog/an-introduction-to-git-etiquette/</guid>
+      <description>&lt;p&gt;Git Etiquette is an interesting subject and one that I found myself having to teach my classmates often. Which I enjoyed because teaching is the greatest way to learn. (Apparently)&lt;/p&gt;
+&lt;p&gt;Quite simply it is the practice of standardising the way you manage your repo and how you communicate regarding things inside of the repo and generally for the purpose of making sure you don&amp;rsquo;t get conflicts, errors and other disasters that lead to development down time.&lt;/p&gt;
+&lt;p&gt;The way I like to teach Git Etiquette is to introduce a schema and then give examples of how to operate within this schema.&lt;/p&gt;
+&lt;h2 id=&#34;schema&#34;&gt;Schema&lt;/h2&gt;
+&lt;p&gt;A typical schema that was used on team projects at University was the following:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-diagram&#34; data-lang=&#34;diagram&#34;&gt;b-bug-name          |   Bug branches
+doc-document-name   |   Documentation branches
+f-feature-name      |   Feature branches
+master              |   Master branch
+t-test-name         |   Testing branches
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This allowed us to see at a glance what was going on in a branch without having to ask someone.&lt;/p&gt;
+&lt;p&gt;I would then give examples of how to create branches, switch to them and back, give proper commit messages and other basic Git usage. The hour or so it takes to teach all of this at the start saves you immeasurable time later and keeps everyone happy.&lt;/p&gt;
+&lt;h2 id=&#34;semi-automated-project-management&#34;&gt;Semi-Automated Project Management&lt;/h2&gt;
+&lt;p&gt;Next we made sure to use the GitHub issues tracker, personally I am not a fan of this but it was a reasonable compromise to make for the sake of the team&amp;rsquo;s comfort.&lt;/p&gt;
+&lt;p&gt;Merge and pull requests went through a two person verification stage to make sure we caught any issues before pulling them into the master branch. This was very effective. One developer would verify the contents of the commit and then escalate to the leader of his team or the project so that the users that could push to master was limited to those that were responsible for the project going smoothly.&lt;/p&gt;
+&lt;p&gt;This was an extremely effective means for us to keep everything flowing and smooth. With minor hiccups along the way when someone needed help with using Git as there are many people with zero experience of Git or similar software at University and not all Universities have classes on this subject.&lt;/p&gt;
+&lt;h2 id=&#34;git-etiquette-and-you&#34;&gt;Git Etiquette and You&lt;/h2&gt;
+&lt;p&gt;There is a good chance that only some, perhaps none of the above will be perfectly applicable to your project(s). That&amp;rsquo;s a good thing, your schema and management rules must apply to the scope of your project after all. You may need more branch naming schemes than this, you may need more layers of verification. The important thing is to have a set of rules set out when you start so that events can flow into the desired workflow.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

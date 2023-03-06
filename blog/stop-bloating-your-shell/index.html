@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Stop Bloating Your Shell | Dunkelheit Citizen</title>
+        <link rel='stylesheet' type='text/css' href='https://dunkelheit.xyz/style.css'>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="alternate" type="application/rss+xml" title="Dunkelheit Citizen RSS" href="https://dunkelheit.xyz/index.xml">
+        <link rel="shortcut icon" href="https://dunkelheit.xyz/pix/favicon.ico" type="image/x-icon">
+        <meta property="og:title" content="Stop Bloating Your Shell | Dunkelheit Citizen">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://dunkelheit.xyz/pix/adventure.webp">
+        <meta property="og:url" content="https://dunkelheit.xyz/blog/stop-bloating-your-shell/">
+        <meta property="og:description" content="Probably my favourite part of using Linux is that I can customise my experience.
+The customisation options for some of the fundamental tools I use are endless and they are customisable by design. I have probably spent more time customising, modifying and tweaking my shell configurations than any other piece of software on my system.
+For this article I will be using zsh as the example shell unless stated otherwise.">
+    </head>
+    <body>
+       </div>
+       <header>
+                <h1>Dunkelheit Citizen</h1>
+        </header>
+        
+        <nav>
+            			<ul>
+				<a href="https://dunkelheit.xyz/"><li>🏡 Home</li></a>
+				<a href="https://dunkelheit.xyz/blog"><li>📖 Feed</li></a>
+				<a href="https://dunkelheit.xyz/contact"><li>📬️ Contact</li></a>
+				<a href="https://dunkelheit.xyz/blog/index.xml"><li><img src="https://dunkelheit.xyz/pix/svg/rss.svg" alt="RSS"> RSS</li></a>
+				<a href="https://dunkelheit.xyz/donate"><li>💰 Donate</li></a>
+			</ul>
+
+        </nav>
+        <main>
+
+
+
+
+
+<h2>Stop Bloating Your Shell</h2>
+<span class="post-date">published on <time datetime="2021-02-10T09:00:00&#43;01:00">02 Oct 2021</time></span>
+<br>
+    
+
+
+<p>Probably my favourite part of using Linux is that I can customise my experience.</p>
+<p>The customisation options for some of the fundamental tools I use are endless and they are customisable by design. I have probably spent more time customising, modifying and tweaking my shell configurations than any other piece of software on my system.</p>
+<p>For this article I will be using <code>zsh</code> as the example shell unless stated otherwise.</p>
+<h3 id="a-shell-is-a-tool-not-a-toy">A shell is a tool, not a toy</h3>
+<p>Simply put the shell is a tool. Whether you are using it interactively or you are scripting tasks, you must use your shell correctly.</p>
+<p>Since the shell is a tool you should be more concerned with what it is for than how it looks. You should also be aware of the dangers of using it incorrectly and the dangers of misunderstanding it while using it.</p>
+<p>Most shells support a form of regex which allows you to be as explicit or implicit as you need when creating a command to be run. The use of the <code>*</code> on its own in shell scripts should be avoided for this reason. You don&rsquo;t want to accidentally delete your entire home folder.</p>
+<h3 id="you-dont-need-plugin-managers">You Don&rsquo;t Need Plugin Managers</h3>
+<p>The use of plugin managers for a shell is peak soydev and a completely ridiculous concept, so why do so many people fall for it? The answer is simple, they are soydevs and do not understand the shell.</p>
+<p>The most popular plugin manager seems to be <code>oh-my-zsh</code> for the <code>zsh</code> shell. It is nothing more than an obfuscated fronted for features that are built into <code>zsh</code>. You do not need it to install anything. You can <code>source</code> these plugins manually in your <code>.zshrc</code> file.</p>
+<p>Using these managers makes your shell take longer to load, adds unneeded complexity and causes problems if you want to do something outside of its scope. Not only that but it turns your <code>.zshrc</code> file into a complete and utter mess for no reason.</p>
+<p>Stop using them, you don&rsquo;t need them. It&rsquo;s lazy and encourages bad practices.</p>
+<h3 id="make-your-own-plugins">Make your own plugins!</h3>
+<p>Do you have a ridiculous number of aliases? Would you prefer not to scroll through them? You can make these into their own plugin!</p>
+<p>As I mentioned above with how to load a plugin you simply need to source the plugin file. Plugin files for <code>zsh</code> are actually just <code>.zsh</code> files and you can make your own. All you need to do is place your aliases in a new file, place the file somewhere appropriate, ensure that the file&rsquo;s shebang is correct: <code>#!/bin/zsh</code> and then source that file in the .zshrc file like so:
+<code>source /path/to/new/alias/plugin.zsh 2&gt;/dev/null</code></p>
+<p>I personally don&rsquo;t do this with my aliases and would recommend not doing so but this is a good example of how plugins work, they are just <code>.zsh</code> scripts!</p>
+<h3 id="aliasing-correctly">Aliasing correctly.</h3>
+<p>Aliases are probably my favourite part of using the shell for most of my needs. You can ensure that a command such as <code>ls</code> always uses colours, you can create adjacently named commands such as <code>ll</code> for example to run <code>ls -l</code> when needed.</p>
+<p>Additionally you can bind scripts and long and complicated single line commands to a single word for ease of use. For example I use <code>dotfiles</code> for managing my dotfiles git repository, I have some scripts that I also like to invoke for things such as checking for updates from all programs on my system, checking crypto prices, etc that I can do with a single word instead of writing the full file path. Although I do I keep these scripts in my <code>PATH</code> I use a naming convention that makes it easier to tell what script it is but it is easier to just invoke them with an alias instead.</p>
+<p>One thing you should not do with aliases however is use them to replace a program. It is bad practice to &ldquo;rename&rdquo; a core program such as <code>ls</code> with an alternative you found online. You should instead be using this tool by its name so that you are aware of what you are doing. Using aliases to obfuscate what you are doing is dangerous.</p>
+<h3 id="shebang">Shebang</h3>
+<p>The shebang (shell bang) is used to ensure that the correct shell language is used when a file is run. For example <code>#!/bin/sh</code> would be used if a script is POSIX compliant only and uses no Non-POSIX commands. For example if you write a script in <code>BASH</code> and it uses bashisms, then your shebang should be <code>#!/bin/bash</code> instead.</p>
+<p>Setting the shebang in your scripts correctly means that when you invoke them from another shell the correct shell program is used to interpret the script. There are tools for testing your shell scripts so that you know what shebang to use, what adjustments to make to use, etc. I personally quite like <code>shellcheck</code> but there are other options out there. However you should not rely on these tools and should be familiar with the commands you are using and how they work before committing them to a script. You can always check their man pages or other documentation before you commit to their use.</p>
+<p>Ideally all scripts should be POSIX compliant only, bashisms are very tempting to use as they do give you more options for your script but there is a good chance you just do not need them.</p>
+<h3 id="remote-shells">Remote Shells</h3>
+<p>If you connect to other devices using a tool like <code>ssh</code> then you should ensure that the remote user&rsquo;s shell config is configured correctly for this. A few examples of what not to do are:</p>
+<ul>
+<li>Invocation of programs with <code>stdout</code> returns.</li>
+<li>Hard declaring terminal (and emulator) compatibility.</li>
+<li>Starting background processes.</li>
+</ul>
+<h3 id="additional-recommendations">Additional recommendations</h3>
+<p>When declaring your <code>PATH</code> variable you should do so explicitly, it may seem fun to use a script to do this but that is additional startup logic that you do not need and a script that you now need to maintain. Additionally you should not be declaring the <code>PATH</code> in your <code>.zshrc</code> file it should be declared in your <code>.zprofile</code> file so that your application launcher (assuming dmenu) is <code>PATH</code> aware.</p>
+<p>So instead of using a script that iterates through all the sub-directories of your <code>.local/bin/</code> directory just declare them like so:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>export PATH<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$PATH<span style="color:#e6db74">:</span>$HOME<span style="color:#e6db74">/.local/bin/&#34;</span>
+</span></span><span style="display:flex;"><span>export PATH<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$PATH<span style="color:#e6db74">:</span>$HOME<span style="color:#e6db74">/.local/bin/go&#34;</span>
+</span></span><span style="display:flex;"><span>export PATH<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$PATH<span style="color:#e6db74">:</span>$HOME<span style="color:#e6db74">/.local/bin/sh&#34;</span>
+</span></span></code></pre></div><p>This example is from my <code>.zshrc</code> file, which you can find here: <a href="https://gitlab.com/wdunkelheit/dotfiles/-/blob/master/.config/zsh/.zshrc">GitLab</a></p>
+<h3 id="learning-process">Learning process</h3>
+<p>Ultimately, using the shell is a learning process. The more you use it and tinker with it they more you will learn. Feel free to <a href="https://dunkelheit.xyz/contact">email me</a> about this subject if you would like help or would like to correct anything I have said.</p>
+
+
+
+<div class="bottom-tags">
+    <ul class="tag-list">
+        <span>Tags: </span>
+        
+            <a href="https://dunkelheit.xyz/tags/linux/"><li id="list-tag-linux">linux</li></a>
+        
+            <a href="https://dunkelheit.xyz/tags/software/"><li id="list-tag-software">software</li></a>
+        
+            <a href="https://dunkelheit.xyz/tags/technology/"><li id="list-tag-technology">technology</li></a>
+        
+    </ul>
+</div>
+
+
+            </main>
+            <footer>
+                			<ul>
+				<a href="https://dunkelheit.xyz/"><li>🏡 Home</li></a>
+				<a href="https://dunkelheit.xyz/blog"><li>📖 Feed</li></a>
+				<a href="https://dunkelheit.xyz/contact"><li>📬️ Contact</li></a>
+				<a href="https://dunkelheit.xyz/blog/index.xml"><li><img src="https://dunkelheit.xyz/pix/svg/rss.svg" alt="RSS"> RSS</li></a>
+				<a href="https://dunkelheit.xyz/donate"><li>💰 Donate</li></a>
+			</ul>
+
+            </footer>
+	</body>
+</html>
+
