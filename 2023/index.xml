@@ -1,69 +1,90 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2023 Archive on Dunkelheit Citizen</title>
+    <title>2023 Archive on Dunkelheit</title>
     <link>https://dunkelheit.xyz/2023/</link>
-    <description>Recent content in 2023 Archive on Dunkelheit Citizen</description>
+    <description>Recent content in 2023 Archive on Dunkelheit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 01 Mar 2023 12:00:00 +0000</lastBuildDate><atom:link href="https://dunkelheit.xyz/2023/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Jun 2023 16:30:00 +0000</lastBuildDate><atom:link href="https://dunkelheit.xyz/2023/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The Wild Hunt Challenge 2023</title>
-      <link>https://dunkelheit.xyz/blog/wild-hunt-challenge-2023/</link>
-      <pubDate>Wed, 01 Mar 2023 12:00:00 +0000</pubDate>
+      <title>Site Update June 2023</title>
+      <link>https://dunkelheit.xyz/blog/site-update/</link>
+      <pubDate>Fri, 23 Jun 2023 16:30:00 +0000</pubDate>
       
-      <guid>https://dunkelheit.xyz/blog/wild-hunt-challenge-2023/</guid>
-      <description>&lt;p&gt;The Golden One issued his &lt;a href=&#34;https://www.youtube.com/watch?v=e53MzSk3Jlc&#34;&gt;Wild Hunt challenge for 2023&lt;/a&gt; a while back and I intend to take part.&lt;/p&gt;
-&lt;p&gt;The challenge(s) for this year (like all years) are to make positive changes in your life by getting more organised, being more well read and improving your health. Of course the Glorious Lion&amp;rsquo;s challenge includes going to the gym. I will go over each challenge, my thoughts on them and how I intended to approach them.&lt;/p&gt;
-&lt;h4 id=&#34;challenge-one---notebook&#34;&gt;Challenge One - Notebook&lt;/h4&gt;
-&lt;p&gt;The first part of the challenge is probably the most important as it will assist with the remainder of the challenges as well as being immensely useful for everyday organisiation in general.&lt;/p&gt;
-&lt;p&gt;The challenge is simple, get a notebook and use it. Particular instruction on how to use it was given which is pretty straightforward. Write down what you plan to day on each given day and tick them off as you go. You get a feeling of accomplishment as you do this and get to see how you progress, where improvements can be made and you can keep on top of things such that you don&amp;rsquo;t forget anything.&lt;/p&gt;
-&lt;p&gt;This is a great start to the challenge, a fairly reasonable introductory step that prepares you for the rest. Not much to say about it other than it being useful for the rest of the challenge.&lt;/p&gt;
-&lt;h4 id=&#34;challenge-two---read-a-book&#34;&gt;Challenge Two - Read A Book&lt;/h4&gt;
-&lt;p&gt;Part two of the challenge is to read a book, the recommended text is The Golden One&amp;rsquo;s own book Dauntless: Wild Hunt Edition, which I intend to read for this challenge as I have been meaning to get around to reading it anyway.&lt;/p&gt;
-&lt;p&gt;When presenting this part of the challenge the suggestion of reading a classic is also given and this is used to explain the purpose of the challenge. Reading a book doesn&amp;rsquo;t just teach you what its contents are, it also teaches you the world view of the author, the writing style used, why the book was written and you may even develop an idea as to why someone would want to read the book. A great intellectual exercise.&lt;/p&gt;
-&lt;p&gt;As mentioned I plan to read Dauntless for this challenge. I already own a copy, as an additional challenge I plan to review the book and give my thoughts on it. I will consider this part of the challenge complete when I do so.&lt;/p&gt;
-&lt;h4 id=&#34;challenge-three---the-temple-of-iron&#34;&gt;Challenge Three - The Temple of Iron&lt;/h4&gt;
-&lt;p&gt;Next we have a challenge relating to The Temple of Iron, which if you are unfamiliar is a term that Gigachads use to refer to the gym. In particular the challenge is to adopt a schedule for the gym and stick to it.&lt;/p&gt;
-&lt;p&gt;Pretty straightforward, the purpose of this challenge is to instill discipline as well as to get you in the gym and lifting. Which is glorious.&lt;/p&gt;
-&lt;p&gt;The Golden One gives Smolov Jr. as an example of a schedule / routine but I plan to use Starting Strength as it is what I prefer.&lt;/p&gt;
-&lt;h4 id=&#34;challenge-four---meditation&#34;&gt;Challenge Four - Meditation&lt;/h4&gt;
-&lt;p&gt;The fourth part of the challenge is to start meditating, every day. Starting at ten minutes with a guided meditation method. The recommended routine is the Wim Hof routine. I don&amp;rsquo;t know anything about it yet but I&amp;rsquo;ll try to take the advice and at least look into it.&lt;/p&gt;
-&lt;p&gt;There&amp;rsquo;s not much else to say here, I don&amp;rsquo;t know much about meditation to really comment on it at this stage.&lt;/p&gt;
-&lt;h4 id=&#34;challenge-five---fasting&#34;&gt;Challenge Five - Fasting&lt;/h4&gt;
-&lt;p&gt;The final challenge is to do a twenty four hour fast. There are many advantages to fasting, from appetite control, developing your discipline, autophagy and weight loss. There are many others but these are the four most common and most directly useful to myself.&lt;/p&gt;
-&lt;p&gt;This is likely to be the easiest part of the challenge for me as I already practice rolling fasting as a means of weight loss. I will say that it is very effective and if there are other benefits (there most certainly is) they will creep their way in. You aren&amp;rsquo;t going to wake up after your first fast to find all the benefits occurred overnight.&lt;/p&gt;
-&lt;p&gt;I recommend fasting alongside a ketogenic diet. Or at the very least a ketogenic protocol prior to the fast.&lt;/p&gt;
-&lt;h3 id=&#34;my-approach&#34;&gt;My Approach&lt;/h3&gt;
-&lt;p&gt;The following is my appraoch or how I intend to approach each challenge:&lt;/p&gt;
+      <guid>https://dunkelheit.xyz/blog/site-update/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s been a while since I last updated the site so here&amp;rsquo;s a rundown on what&amp;rsquo;s new.&lt;/p&gt;
+&lt;h3 id=&#34;new-content&#34;&gt;New Content&lt;/h3&gt;
+&lt;p&gt;The &lt;a href=&#34;https://dunkelheit.xyz/about&#34;&gt;about me&lt;/a&gt; page has been updated with some hobby info for those interested. I will likely be completely redoing this page over the coming weeks as I find time.&lt;/p&gt;
+&lt;p&gt;New &lt;code&gt;#tags&lt;/code&gt; in the CSS that may hint at future posts.&lt;/p&gt;
+&lt;p&gt;Various new posts and minor changes to older ones. Out of date / scope posts have been removed.&lt;/p&gt;
+&lt;h3 id=&#34;housekeeping&#34;&gt;Housekeeping&lt;/h3&gt;
+&lt;p&gt;Some backend changes have been made to make maintenance of the site easier. Nothing complex or noteworthy.&lt;/p&gt;
+&lt;h3 id=&#34;known-issues&#34;&gt;Known Issues&lt;/h3&gt;
+&lt;p&gt;None to report! :D&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>I Still Like Video Games</title>
+      <link>https://dunkelheit.xyz/blog/i-still-like-video-games/</link>
+      <pubDate>Fri, 23 Jun 2023 13:30:00 +0100</pubDate>
+      
+      <guid>https://dunkelheit.xyz/blog/i-still-like-video-games/</guid>
+      <description>&lt;p&gt;I have previously written about how video games aren&amp;rsquo;t fun any more. This is a bit of a follow up based on some recent thoughts.&lt;/p&gt;
+&lt;p&gt;Recently I have been playing some video games on Linux via Steam&amp;rsquo;s &lt;code&gt;Proton&lt;/code&gt; and &lt;code&gt;gamescope&lt;/code&gt; tools and was amazed that somehow this made Windows games that are notorious for instability incredibly more stable. It has been fun to play Fallout: New Vegas again (unmodded) and it just works™️!&lt;/p&gt;
+&lt;p&gt;It has been fun to just play this game again, it is one of my favourites and playing it again after so long has been a nostalgia trip I was in need of.&lt;/p&gt;
+&lt;p&gt;Which brings me to my point, I still like video games! In particular I still like the video games I used to like. The various issues of modern gaming are still prolific and getting worse but my favourite games are from before this time. I can just run them, play them and enjoy myself without having to avoid, circumvent, grind out, etc the various chores and time/money gates found in almost all modern games.&lt;/p&gt;
+&lt;p&gt;It is fun to have fun and I have found myself having fun with video games again.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Running OpenMW Through Steam</title>
+      <link>https://dunkelheit.xyz/blog/running-openmw-through-steam/</link>
+      <pubDate>Thu, 08 Jun 2023 12:30:00 +0100</pubDate>
+      
+      <guid>https://dunkelheit.xyz/blog/running-openmw-through-steam/</guid>
+      <description>&lt;p&gt;The Elder Scrolls III: Morrowind is one of the finest video games ever made. It is one of my favourites and as such I like to have it installed on all of my computers. I prefer to play the game using the OpenMW source port but would still like to use Steam features like game time tracking, screenshot sharing and the overlay.&lt;/p&gt;
+&lt;p&gt;To follow this guide, you should have the Steam version of Morrowind and OpenMW already installed on your computer.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Linux&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;I purchases a nice Oxford Touch notebook featuring 90gsm paper. Perfect for writing on both sides of.
+&lt;li&gt;Open your Steam library&lt;/li&gt;
+&lt;li&gt;Right click on &amp;lsquo;The Elder Scrolls III: Morrowind&amp;rsquo; in your games list.&lt;/li&gt;
+&lt;li&gt;Click on &amp;lsquo;Properties&amp;hellip;&amp;rsquo;&lt;/li&gt;
+&lt;li&gt;Under Launch Options enter the path to OpenMW inside of single quotes followed by &lt;code&gt;-- %command%&lt;/code&gt;
 &lt;ul&gt;
-&lt;li&gt;There is nothing fancy about it really, it&amp;rsquo;s a normal notebook with no thrills.&lt;/li&gt;
-&lt;li&gt;I didn&amp;rsquo;t see much point in getting anything nicer than this for keeping checklists.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;As mentioned above I will be reading Dauntless.&lt;/li&gt;
-&lt;li&gt;Starting Strength is a great routine for building strength, I switch between it and StrongLifts every so often.
-&lt;ul&gt;
-&lt;li&gt;I also add in significant cardio work as well.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;I will start off with the recommended Wim Hof routine and see how it goes.
-&lt;ul&gt;
-&lt;li&gt;This is the only challenge I see being somewhat of a change of pace / new experience.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;I already have at least a twenty four hour fast every week.
-&lt;ul&gt;
-&lt;li&gt;Sometimes I throw in a forty eight or seventy two hour fast.&lt;/li&gt;
-&lt;li&gt;I do not consent to calories!&lt;/li&gt;
+&lt;li&gt;For example &lt;code&gt;&#39;/usr/bin/openmw&#39; -- %command%&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id=&#34;comments&#34;&gt;Comments&lt;/h3&gt;
-&lt;p&gt;Now that I have given a breakdown of the challenge and my thoughts on each part I have a few comments on the overall challenge to make. First and foremost, the combination of these challenges will have obvious benefits to most people. I highly recommend taking part. Additionally you can modify it or add your own challenges if you&amp;rsquo;d like. The idea behind this is to make your New Year&amp;rsquo;s resolution more meaningful without calling it a New Year&amp;rsquo;s resolution. That&amp;rsquo;s a cringe name, we aren&amp;rsquo;t making &amp;ldquo;resolutions&amp;rdquo; we are COMPETING in the WILD HUNT with our leader THE GLORIOUS LION!&lt;/p&gt;
-&lt;p&gt;I will update this post occasionally with my thoughts on the challenges so far. Glory to those competing!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Windows&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Open your Steam library&lt;/li&gt;
+&lt;li&gt;Right click on &amp;lsquo;The Elder Scrolls III: Morrowind&amp;rsquo; in your games list.&lt;/li&gt;
+&lt;li&gt;Click on &amp;lsquo;Properties&amp;hellip;&amp;rsquo;&lt;/li&gt;
+&lt;li&gt;Under Launch Options enter the path to OpenMW inside of double quotes followed by &lt;code&gt; %command%&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;For example &lt;code&gt;&amp;quot;C:\Games\OpenMW\openmw.exe %command%&amp;quot;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You can now launch OpenMW via Steam by clicking Play on your Morrowind entry.&lt;/p&gt;
+&lt;p&gt;This trick will work for other games too. For example DOOM and DOOM 2 and your personal favourite source port.&lt;/p&gt;
+&lt;h3 id=&#34;update&#34;&gt;Update&lt;/h3&gt;
+&lt;p&gt;As far as I am aware you can&amp;rsquo;t do this to track game time for Morrowind on a Mac as Steam won&amp;rsquo;t let you launch the game even if you manage to get it to download the game files via a manifest file or console commands.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Twitter Still Sucks</title>
+      <link>https://dunkelheit.xyz/blog/twitter-still-sucks/</link>
+      <pubDate>Thu, 16 Mar 2023 17:30:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.xyz/blog/twitter-still-sucks/</guid>
+      <description>&lt;p&gt;I recently made a new Twitter account to follow some accounts while my usual manner of reading them via RSS feeds (thanks to &lt;a href=&#34;https://nitter.net&#34;&gt;Nitter&lt;/a&gt;) were unavailable.&lt;/p&gt;
+&lt;p&gt;Surprising no one, the website still sucks and has all the problems that it had before except now you can pay for a dunce cap on your account.&lt;/p&gt;
+&lt;p&gt;What a waste of time that was!&lt;/p&gt;
 </description>
     </item>
     
@@ -119,33 +140,6 @@
 &lt;p&gt;I intend to change that. The idea of writing a blog is appealing I&amp;rsquo;ve just never felt like I had anything interesting going on. I blame doing a CompSci degree for this though. Now that I am doing a degree that I actually want to do I have probably too much that I want to write down about it.&lt;/p&gt;
 &lt;p&gt;When last semester ended I planned to blog about my experience, what I thought of the various classes, the campus, the environment of the university in general but I never got around to it. So I will cover both semesters at the same time when this one is finished.&lt;/p&gt;
 &lt;p&gt;In fact there is a bunch of stuff I would like to start writing about that I haven&amp;rsquo;t had the time to. Such as book reviews, travel logs and personal updates. The idea of &amp;ldquo;building your own platform&amp;rdquo; was supposed to give the opportunity to do these things and I never took advantage of it when I wanted to. I will be doing so more often starting now.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Site Update February 2023</title>
-      <link>https://dunkelheit.xyz/blog/site-update/</link>
-      <pubDate>Thu, 23 Feb 2023 12:30:00 +0000</pubDate>
-      
-      <guid>https://dunkelheit.xyz/blog/site-update/</guid>
-      <description>&lt;p&gt;It&amp;rsquo;s been a while since I last updated the site so here&amp;rsquo;s a rundown on what&amp;rsquo;s new.&lt;/p&gt;
-&lt;h3 id=&#34;new-content&#34;&gt;New Content&lt;/h3&gt;
-&lt;p&gt;There is now a &lt;a href=&#34;https://dunkelheit.xyz/library&#34;&gt;library&lt;/a&gt; page where you can see all the books I own. It is an ongoing project and there are a lot of books missing from it that I have yet to catalogue. However if you find anything of interest on it and would like to contact me, please do so.&lt;/p&gt;
-&lt;p&gt;You can now find the long awaited Cookbook project at the &lt;a href=&#34;https://dunkelheit.xyz/recipes&#34;&gt;recipes&lt;/a&gt; page. It is a long awaited feature I am sure. It&amp;rsquo;s a bit empty at the moment but I will be filling it out from time to time. Read the Cookbook Now Live article linked below to find out more.&lt;/p&gt;
-&lt;p&gt;The domain name has now changed from &lt;code&gt;dunkelheit.biz&lt;/code&gt; to &lt;code&gt;dunkelheit.xyz&lt;/code&gt; and the old domain will expire within a month.&lt;/p&gt;
-&lt;h4 id=&#34;new-articles&#34;&gt;New Articles:&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://dunkelheit.xyz/blog/having-fun-is-trad&#34;&gt;Having Fun Is Trad&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://dunkelheit.xyz/blog/against-cdns&#34;&gt;Against CDNs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://dunkelheit.xyz/blog/necessary-evils-internet/&#34;&gt;Necessary Evils on the Internet&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://dunkelheit.xyz/blog/every-day-carry/&#34;&gt;Every Day Carry and Equipment&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://dunkelheit.xyz/blog/cookbook-now-live/&#34;&gt;Cookbook Now Live&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;housekeeping&#34;&gt;Housekeeping&lt;/h3&gt;
-&lt;p&gt;The home page and about me pages have been updated to include more accurate information and restructured a bit to ensure clarity. Please keep in mind that the YouTube and Odysee links are placeholders while I set those up. I&amp;rsquo;ll update this post when it has been fixed.&lt;/p&gt;
-&lt;h3 id=&#34;known-issues&#34;&gt;Known Issues&lt;/h3&gt;
-&lt;p&gt;Email is down, I will attempt to fix it at some point when I am less busy. For now you can contact me via twitter &lt;a href=&#34;https://twitter.com/dunkelheitxyz&#34;&gt;&lt;code&gt;@Dunkelheitxyz&lt;/code&gt;&lt;/a&gt;. If you are familiar with my content you will know that I am against social media and twitter in particular is my usual go to example of why. Check the Necessary Evils on the Internet article linked above to see some of my more recent thinking on the matter. I am still not convinced it is worth keeping a twitter account long term, for now it is a stopgap fix for a problem I don&amp;rsquo;t have the time to find a better solution to.&lt;/p&gt;
-&lt;p&gt;The YouTube and Odysee links don&amp;rsquo;t work. This is on purpose, they are placeholders.&lt;/p&gt;
 </description>
     </item>
     
@@ -329,10 +323,15 @@
 &lt;h4 id=&#34;footwear&#34;&gt;Footwear&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Bundeswehr Fallschrimjager Boots Mk4&lt;/p&gt;
+&lt;p&gt;Austrian Fallschrimjager Boots&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Finest combat boots ever made. Perfectly comfortable, keeps my feet warm and dry, slip on and off no issue when needed.&lt;/li&gt;
-&lt;li&gt;Resoled with Vibram soles.&lt;/li&gt;
+&lt;li&gt;Perfectly comfortable, keeps my feet warm and dry, slip on and off no issue when needed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Dutch Army Surplus Wool Socks&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Incredible fit and feel. 80:20 blend woolen socks. Perfect for boots and high top trainers.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -351,28 +350,6 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Necessary Evils on the Internet?</title>
-      <link>https://dunkelheit.xyz/blog/necessary-evils-internet/</link>
-      <pubDate>Sun, 19 Feb 2023 14:15:00 +0000</pubDate>
-      
-      <guid>https://dunkelheit.xyz/blog/necessary-evils-internet/</guid>
-      <description>&lt;p&gt;The modern Internet experience for the average Internet user is a strange thing indeed. The compulsive desire to &amp;ldquo;check notis&amp;rdquo; is truly a technological horror and an expression of addictive behavior. Yet many find it to not only be &amp;ldquo;normal&amp;rdquo; but completely acceptable. How bizarre!&lt;/p&gt;
-&lt;p&gt;When I was younger and I wanted to talk to my friends online I had to open various chat applications to be able to communicate with them all because everyone had just one application that they were comfortable with (or their parents allowed to be installed on the family computer) and it was normal for people to take days or weeks to reply.&lt;/p&gt;
-&lt;p&gt;Now it seems that is no longer the case, everyone feels some kind of need to be on every platform and expects instantaneous replies regardless of time zones or whether the recipient is awake or busy. It&amp;rsquo;s a very artificial way of interacting with people and it is quite disturbing to think about.&lt;/p&gt;
-&lt;p&gt;On the topic of being &amp;ldquo;on every platform&amp;rdquo;, I have come to resent the fact that I have started to rely on some of these same platforms myself recently. Although I have been doing this so far without accounts on them (shout out to &lt;a href=&#34;https://nitter.net/&#34;&gt;nitter&lt;/a&gt;!). This makes it very time consuming and exhausting to keep up to date with people that use these platforms exclusively.&lt;/p&gt;
-&lt;p&gt;Unfortunately there is no realistic solution to this problem when you want to follow more than five or so accounts. Which is why I have recently started to think that it may be a necessary evil to create an account on these platforms for the purpose of following and keeping up to date with certain people, topics, etc.&lt;/p&gt;
-&lt;p&gt;Which goes against the spirit of what I am trying to do with this blog: being my own platform.&lt;/p&gt;
-&lt;p&gt;Is it a necessary evil or am I just unaware of a better solution?&lt;/p&gt;
-&lt;p&gt;I have tried to use fediverse in the past, and while technologically it is a neat technological solution to problems and some cool people are on there that I would like to keep up to date with it falls into the same category of click-chasing habit forming behavior that twitter, etc all infect their users with.&lt;/p&gt;
-&lt;p&gt;For now I haven&amp;rsquo;t made accounts on these platforms however it is something that I am starting to think about. 🤔&lt;/p&gt;
-&lt;h3 id=&#34;update&#34;&gt;Update&lt;/h3&gt;
-&lt;p&gt;I have decided to try it out and see for myself if it is worth the hassle. You can follow me &lt;a href=&#34;https://twitter.com/dunkelheitxyz&#34;&gt;@Dunkelheitxyz&lt;/a&gt; if you want to. As I mentioned above I intend to just use it to keep up to date with some accounts that don&amp;rsquo;t have or use alternatives.&lt;/p&gt;
-&lt;h3 id=&#34;update-2&#34;&gt;Update 2&lt;/h3&gt;
-&lt;p&gt;I am not impressed with the twitter experience at all. It seems like it has gotten worse over the years. Which would surprise me if I didn&amp;rsquo;t expect this. The issues I pointed out in past posts about the issues being what twitter is as well as how they do it are still present. Ultimately it is designed to suck your time away and keep you engaged in meaningless nonsense. I will keep the account active for a while longer but I likely won&amp;rsquo;t log in to it. Really I just can&amp;rsquo;t be bothered to use it at all, even to delete it.&lt;/p&gt;
 </description>
     </item>
     

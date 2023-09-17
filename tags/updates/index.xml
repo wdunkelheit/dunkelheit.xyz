@@ -1,36 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>updates on Dunkelheit Citizen</title>
+    <title>updates on Dunkelheit</title>
     <link>https://dunkelheit.xyz/tags/updates/</link>
-    <description>Recent content in updates on Dunkelheit Citizen</description>
+    <description>Recent content in updates on Dunkelheit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 23 Feb 2023 12:30:00 +0000</lastBuildDate><atom:link href="https://dunkelheit.xyz/tags/updates/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Jun 2023 16:30:00 +0000</lastBuildDate><atom:link href="https://dunkelheit.xyz/tags/updates/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Site Update February 2023</title>
+      <title>Site Update June 2023</title>
       <link>https://dunkelheit.xyz/blog/site-update/</link>
-      <pubDate>Thu, 23 Feb 2023 12:30:00 +0000</pubDate>
+      <pubDate>Fri, 23 Jun 2023 16:30:00 +0000</pubDate>
       
       <guid>https://dunkelheit.xyz/blog/site-update/</guid>
       <description>&lt;p&gt;It&amp;rsquo;s been a while since I last updated the site so here&amp;rsquo;s a rundown on what&amp;rsquo;s new.&lt;/p&gt;
 &lt;h3 id=&#34;new-content&#34;&gt;New Content&lt;/h3&gt;
-&lt;p&gt;There is now a &lt;a href=&#34;https://dunkelheit.xyz/library&#34;&gt;library&lt;/a&gt; page where you can see all the books I own. It is an ongoing project and there are a lot of books missing from it that I have yet to catalogue. However if you find anything of interest on it and would like to contact me, please do so.&lt;/p&gt;
-&lt;p&gt;You can now find the long awaited Cookbook project at the &lt;a href=&#34;https://dunkelheit.xyz/recipes&#34;&gt;recipes&lt;/a&gt; page. It is a long awaited feature I am sure. It&amp;rsquo;s a bit empty at the moment but I will be filling it out from time to time. Read the Cookbook Now Live article linked below to find out more.&lt;/p&gt;
-&lt;p&gt;The domain name has now changed from &lt;code&gt;dunkelheit.biz&lt;/code&gt; to &lt;code&gt;dunkelheit.xyz&lt;/code&gt; and the old domain will expire within a month.&lt;/p&gt;
-&lt;h4 id=&#34;new-articles&#34;&gt;New Articles:&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://dunkelheit.xyz/blog/having-fun-is-trad&#34;&gt;Having Fun Is Trad&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://dunkelheit.xyz/blog/against-cdns&#34;&gt;Against CDNs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://dunkelheit.xyz/blog/necessary-evils-internet/&#34;&gt;Necessary Evils on the Internet&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://dunkelheit.xyz/blog/every-day-carry/&#34;&gt;Every Day Carry and Equipment&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://dunkelheit.xyz/blog/cookbook-now-live/&#34;&gt;Cookbook Now Live&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;The &lt;a href=&#34;https://dunkelheit.xyz/about&#34;&gt;about me&lt;/a&gt; page has been updated with some hobby info for those interested. I will likely be completely redoing this page over the coming weeks as I find time.&lt;/p&gt;
+&lt;p&gt;New &lt;code&gt;#tags&lt;/code&gt; in the CSS that may hint at future posts.&lt;/p&gt;
+&lt;p&gt;Various new posts and minor changes to older ones. Out of date / scope posts have been removed.&lt;/p&gt;
 &lt;h3 id=&#34;housekeeping&#34;&gt;Housekeeping&lt;/h3&gt;
-&lt;p&gt;The home page and about me pages have been updated to include more accurate information and restructured a bit to ensure clarity. Please keep in mind that the YouTube and Odysee links are placeholders while I set those up. I&amp;rsquo;ll update this post when it has been fixed.&lt;/p&gt;
+&lt;p&gt;Some backend changes have been made to make maintenance of the site easier. Nothing complex or noteworthy.&lt;/p&gt;
 &lt;h3 id=&#34;known-issues&#34;&gt;Known Issues&lt;/h3&gt;
-&lt;p&gt;Email is down, I will attempt to fix it at some point when I am less busy. For now you can contact me via twitter &lt;a href=&#34;https://twitter.com/dunkelheitxyz&#34;&gt;&lt;code&gt;@Dunkelheitxyz&lt;/code&gt;&lt;/a&gt;. If you are familiar with my content you will know that I am against social media and twitter in particular is my usual go to example of why. Check the Necessary Evils on the Internet article linked above to see some of my more recent thinking on the matter. I am still not convinced it is worth keeping a twitter account long term, for now it is a stopgap fix for a problem I don&amp;rsquo;t have the time to find a better solution to.&lt;/p&gt;
-&lt;p&gt;The YouTube and Odysee links don&amp;rsquo;t work. This is on purpose, they are placeholders.&lt;/p&gt;
+&lt;p&gt;None to report! :D&lt;/p&gt;
 </description>
     </item>
     

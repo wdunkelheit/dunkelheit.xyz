@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>technology on Dunkelheit Citizen</title>
+    <title>technology on Dunkelheit</title>
     <link>https://dunkelheit.xyz/tags/technology/</link>
-    <description>Recent content in technology on Dunkelheit Citizen</description>
+    <description>Recent content in technology on Dunkelheit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 21 Feb 2023 14:30:00 +0000</lastBuildDate><atom:link href="https://dunkelheit.xyz/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Jun 2023 13:30:00 +0100</lastBuildDate><atom:link href="https://dunkelheit.xyz/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I Still Like Video Games</title>
+      <link>https://dunkelheit.xyz/blog/i-still-like-video-games/</link>
+      <pubDate>Fri, 23 Jun 2023 13:30:00 +0100</pubDate>
+      
+      <guid>https://dunkelheit.xyz/blog/i-still-like-video-games/</guid>
+      <description>&lt;p&gt;I have previously written about how video games aren&amp;rsquo;t fun any more. This is a bit of a follow up based on some recent thoughts.&lt;/p&gt;
+&lt;p&gt;Recently I have been playing some video games on Linux via Steam&amp;rsquo;s &lt;code&gt;Proton&lt;/code&gt; and &lt;code&gt;gamescope&lt;/code&gt; tools and was amazed that somehow this made Windows games that are notorious for instability incredibly more stable. It has been fun to play Fallout: New Vegas again (unmodded) and it just works™️!&lt;/p&gt;
+&lt;p&gt;It has been fun to just play this game again, it is one of my favourites and playing it again after so long has been a nostalgia trip I was in need of.&lt;/p&gt;
+&lt;p&gt;Which brings me to my point, I still like video games! In particular I still like the video games I used to like. The various issues of modern gaming are still prolific and getting worse but my favourite games are from before this time. I can just run them, play them and enjoy myself without having to avoid, circumvent, grind out, etc the various chores and time/money gates found in almost all modern games.&lt;/p&gt;
+&lt;p&gt;It is fun to have fun and I have found myself having fun with video games again.&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>Every Day Carry and Equipment</title>
       <link>https://dunkelheit.xyz/blog/every-day-carry/</link>
@@ -174,10 +188,15 @@
 &lt;h4 id=&#34;footwear&#34;&gt;Footwear&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Bundeswehr Fallschrimjager Boots Mk4&lt;/p&gt;
+&lt;p&gt;Austrian Fallschrimjager Boots&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Finest combat boots ever made. Perfectly comfortable, keeps my feet warm and dry, slip on and off no issue when needed.&lt;/li&gt;
-&lt;li&gt;Resoled with Vibram soles.&lt;/li&gt;
+&lt;li&gt;Perfectly comfortable, keeps my feet warm and dry, slip on and off no issue when needed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Dutch Army Surplus Wool Socks&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Incredible fit and feel. 80:20 blend woolen socks. Perfect for boots and high top trainers.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -196,28 +215,6 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Necessary Evils on the Internet?</title>
-      <link>https://dunkelheit.xyz/blog/necessary-evils-internet/</link>
-      <pubDate>Sun, 19 Feb 2023 14:15:00 +0000</pubDate>
-      
-      <guid>https://dunkelheit.xyz/blog/necessary-evils-internet/</guid>
-      <description>&lt;p&gt;The modern Internet experience for the average Internet user is a strange thing indeed. The compulsive desire to &amp;ldquo;check notis&amp;rdquo; is truly a technological horror and an expression of addictive behavior. Yet many find it to not only be &amp;ldquo;normal&amp;rdquo; but completely acceptable. How bizarre!&lt;/p&gt;
-&lt;p&gt;When I was younger and I wanted to talk to my friends online I had to open various chat applications to be able to communicate with them all because everyone had just one application that they were comfortable with (or their parents allowed to be installed on the family computer) and it was normal for people to take days or weeks to reply.&lt;/p&gt;
-&lt;p&gt;Now it seems that is no longer the case, everyone feels some kind of need to be on every platform and expects instantaneous replies regardless of time zones or whether the recipient is awake or busy. It&amp;rsquo;s a very artificial way of interacting with people and it is quite disturbing to think about.&lt;/p&gt;
-&lt;p&gt;On the topic of being &amp;ldquo;on every platform&amp;rdquo;, I have come to resent the fact that I have started to rely on some of these same platforms myself recently. Although I have been doing this so far without accounts on them (shout out to &lt;a href=&#34;https://nitter.net/&#34;&gt;nitter&lt;/a&gt;!). This makes it very time consuming and exhausting to keep up to date with people that use these platforms exclusively.&lt;/p&gt;
-&lt;p&gt;Unfortunately there is no realistic solution to this problem when you want to follow more than five or so accounts. Which is why I have recently started to think that it may be a necessary evil to create an account on these platforms for the purpose of following and keeping up to date with certain people, topics, etc.&lt;/p&gt;
-&lt;p&gt;Which goes against the spirit of what I am trying to do with this blog: being my own platform.&lt;/p&gt;
-&lt;p&gt;Is it a necessary evil or am I just unaware of a better solution?&lt;/p&gt;
-&lt;p&gt;I have tried to use fediverse in the past, and while technologically it is a neat technological solution to problems and some cool people are on there that I would like to keep up to date with it falls into the same category of click-chasing habit forming behavior that twitter, etc all infect their users with.&lt;/p&gt;
-&lt;p&gt;For now I haven&amp;rsquo;t made accounts on these platforms however it is something that I am starting to think about. 🤔&lt;/p&gt;
-&lt;h3 id=&#34;update&#34;&gt;Update&lt;/h3&gt;
-&lt;p&gt;I have decided to try it out and see for myself if it is worth the hassle. You can follow me &lt;a href=&#34;https://twitter.com/dunkelheitxyz&#34;&gt;@Dunkelheitxyz&lt;/a&gt; if you want to. As I mentioned above I intend to just use it to keep up to date with some accounts that don&amp;rsquo;t have or use alternatives.&lt;/p&gt;
-&lt;h3 id=&#34;update-2&#34;&gt;Update 2&lt;/h3&gt;
-&lt;p&gt;I am not impressed with the twitter experience at all. It seems like it has gotten worse over the years. Which would surprise me if I didn&amp;rsquo;t expect this. The issues I pointed out in past posts about the issues being what twitter is as well as how they do it are still present. Ultimately it is designed to suck your time away and keep you engaged in meaningless nonsense. I will keep the account active for a while longer but I likely won&amp;rsquo;t log in to it. Really I just can&amp;rsquo;t be bothered to use it at all, even to delete it.&lt;/p&gt;
 </description>
     </item>
     

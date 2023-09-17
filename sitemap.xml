@@ -2,29 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://dunkelheit.xyz/2023/</loc>
-    <lastmod>2023-03-01T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dunkelheit.xyz/tags/blog/</loc>
-    <lastmod>2023-03-01T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dunkelheit.xyz/blog/</loc>
-    <lastmod>2023-03-01T12:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://dunkelheit.xyz/</loc>
-    <lastmod>2023-03-01T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dunkelheit.xyz/tags/philosophy/</loc>
-    <lastmod>2023-03-01T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dunkelheit.xyz/tags/</loc>
-    <lastmod>2023-03-01T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dunkelheit.xyz/blog/wild-hunt-challenge-2023/</loc>
-    <lastmod>2023-03-01T12:00:00+00:00</lastmod>
+    <lastmod>2023-08-05T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dunkelheit.xyz/tags/recipes/</loc>
-    <lastmod>2023-03-01T10:30:00+00:00</lastmod>
+    <lastmod>2023-08-05T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dunkelheit.xyz/tags/</loc>
+    <lastmod>2023-08-05T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dunkelheit.xyz/recipes/tomato-sauce/</loc>
+    <lastmod>2023-08-05T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dunkelheit.xyz/2023/</loc>
+    <lastmod>2023-06-23T16:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dunkelheit.xyz/blog/</loc>
+    <lastmod>2023-06-23T16:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dunkelheit.xyz/blog/site-update/</loc>
+    <lastmod>2023-06-23T16:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dunkelheit.xyz/tags/updates/</loc>
+    <lastmod>2023-06-23T16:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dunkelheit.xyz/blog/i-still-like-video-games/</loc>
+    <lastmod>2023-06-23T13:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://dunkelheit.xyz/tags/technology/</loc>
+    <lastmod>2023-06-23T13:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://dunkelheit.xyz/tags/video-games/</loc>
+    <lastmod>2023-06-23T13:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://dunkelheit.xyz/tags/linux/</loc>
+    <lastmod>2023-06-08T12:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://dunkelheit.xyz/blog/running-openmw-through-steam/</loc>
+    <lastmod>2023-06-08T12:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://dunkelheit.xyz/tags/tutorial/</loc>
+    <lastmod>2023-06-08T12:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://dunkelheit.xyz/recipes/cranmeode/</loc>
+    <lastmod>2023-03-20T12:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dunkelheit.xyz/tags/blog/</loc>
+    <lastmod>2023-03-16T17:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dunkelheit.xyz/blog/twitter-still-sucks/</loc>
+    <lastmod>2023-03-16T17:30:00+00:00</lastmod>
   </url><url>
     <loc>https://dunkelheit.xyz/recipes/sourdough-starter/</loc>
     <lastmod>2023-03-01T10:30:00+00:00</lastmod>
@@ -32,14 +59,8 @@
     <loc>https://dunkelheit.xyz/blog/a-blog-without-blogging/</loc>
     <lastmod>2023-02-28T18:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dunkelheit.xyz/recipes/minute-mead/</loc>
+    <loc>https://dunkelheit.xyz/recipes/sima/</loc>
     <lastmod>2023-02-27T12:30:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dunkelheit.xyz/blog/site-update/</loc>
-    <lastmod>2023-02-23T12:30:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dunkelheit.xyz/tags/updates/</loc>
-    <lastmod>2023-02-23T12:30:00+00:00</lastmod>
   </url><url>
     <loc>https://dunkelheit.xyz/blog/cookbook-now-live/</loc>
     <lastmod>2023-02-22T22:00:00+00:00</lastmod>
@@ -53,14 +74,8 @@
     <loc>https://dunkelheit.xyz/blog/every-day-carry/</loc>
     <lastmod>2023-02-21T14:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://dunkelheit.xyz/tags/technology/</loc>
-    <lastmod>2023-02-21T16:00:00+01:00</lastmod>
-  </url><url>
     <loc>https://dunkelheit.xyz/recipes/overnight-oats/</loc>
     <lastmod>2023-02-21T14:00:30+00:00</lastmod>
-  </url><url>
-    <loc>https://dunkelheit.xyz/blog/necessary-evils-internet/</loc>
-    <lastmod>2023-02-21T16:00:00+01:00</lastmod>
   </url><url>
     <loc>https://dunkelheit.xyz/blog/against-cdns/</loc>
     <lastmod>2023-02-13T10:00:00+00:00</lastmod>
@@ -72,6 +87,9 @@
     <lastmod>2023-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dunkelheit.xyz/blog/having-fun-is-trad/</loc>
+    <lastmod>2023-01-31T14:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dunkelheit.xyz/tags/philosophy/</loc>
     <lastmod>2023-01-31T14:30:00+00:00</lastmod>
   </url><url>
     <loc>https://dunkelheit.xyz/blog/domain-name-change-update/</loc>
@@ -98,9 +116,6 @@
     <loc>https://dunkelheit.xyz/tags/language/</loc>
     <lastmod>2022-09-30T14:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dunkelheit.xyz/blog/all-about-my-meme-diet/</loc>
-    <lastmod>2022-07-21T17:30:00+01:00</lastmod>
-  </url><url>
     <loc>https://dunkelheit.xyz/blog/an-introduction-to-git-etiquette/</loc>
     <lastmod>2022-07-19T21:00:00+01:00</lastmod>
   </url><url>
@@ -117,12 +132,6 @@
     <lastmod>2022-04-26T17:00:00+01:00</lastmod>
   </url><url>
     <loc>https://dunkelheit.xyz/blog/encrypting-an-external-storage-device/</loc>
-    <lastmod>2022-04-02T09:20:00+01:00</lastmod>
-  </url><url>
-    <loc>https://dunkelheit.xyz/tags/linux/</loc>
-    <lastmod>2022-04-02T09:20:00+01:00</lastmod>
-  </url><url>
-    <loc>https://dunkelheit.xyz/tags/tutorial/</loc>
     <lastmod>2022-04-02T09:20:00+01:00</lastmod>
   </url><url>
     <loc>https://dunkelheit.xyz/2021/</loc>
@@ -161,9 +170,6 @@
     <loc>https://dunkelheit.xyz/blog/learning-german/</loc>
     <lastmod>2021-08-25T21:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dunkelheit.xyz/tags/video-games/</loc>
-    <lastmod>2021-07-10T07:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://dunkelheit.xyz/blog/video-games-are-over/</loc>
     <lastmod>2021-07-10T07:00:00+00:00</lastmod>
   </url><url>
@@ -172,6 +178,8 @@
     <loc>https://dunkelheit.xyz/contact/</loc>
   </url><url>
     <loc>https://dunkelheit.xyz/donate/</loc>
+  </url><url>
+    <loc>https://dunkelheit.xyz/links/</loc>
   </url><url>
     <loc>https://dunkelheit.xyz/library/</loc>
   </url>
