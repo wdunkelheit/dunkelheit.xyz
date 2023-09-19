@@ -6,7 +6,48 @@
     <description>Recent content in blog on Dunkelheit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 16 Mar 2023 17:30:00 +0000</lastBuildDate><atom:link href="https://dunkelheit.xyz/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Sep 2023 18:00:00 +0100</lastBuildDate><atom:link href="https://dunkelheit.xyz/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projects Update</title>
+      <link>https://dunkelheit.xyz/blog/projects-update/</link>
+      <pubDate>Mon, 18 Sep 2023 18:00:00 +0100</pubDate>
+      
+      <guid>https://dunkelheit.xyz/blog/projects-update/</guid>
+      <description>&lt;p&gt;I have been working on a few project recently and thought I would give an update to what they are and how they are coming along.&lt;/p&gt;
+&lt;h3 id=&#34;migrating-from-vim-to-neovim&#34;&gt;Migrating from Vim to Neovim&lt;/h3&gt;
+&lt;p&gt;Pretty self explanatory, Vim has served me well over the years but having to maintain my config in vimscript and trying to manage packages and plugins for it is too much work for what I get out of it. As such I have chosen to move to Neovim and start using it. My progress with this can be tracked on my dotfiles repo if you are interested.&lt;/p&gt;
+&lt;h3 id=&#34;cross-platform-dotfile-management&#34;&gt;Cross platform dotfile management&lt;/h3&gt;
+&lt;p&gt;I use multiple systems for my computing needs, GNU+Linux for my desktops, servers, ThinkPads and MacOS for my Mac. There are differences between these two that require micro-management and changes when deploying dotfiles as such I have chosen to start modelling a new way of managing my dotfiles. For now this is in the planning stages and will be rolled out as I see fit and implement my ideas.&lt;/p&gt;
+&lt;h3 id=&#34;new-website-design&#34;&gt;New website design&lt;/h3&gt;
+&lt;p&gt;This website is my little space on the internet where I scream into the void. It&amp;rsquo;s great being able to post and publish things and share them around and get feedback, etc. One of my favourite parts of being in control of this website is that I can post and publish what I would like. However the issue of organising the content on the site has come to my attention recently. The cookbook section should be it&amp;rsquo;s own &amp;ldquo;website&amp;rdquo; within the same domain for example. Categories and tags should be more distinct, sorting things by year on the index pages doesn&amp;rsquo;t make sense to me either. As such I plan to make a few design changes to the website over the coming months.&lt;/p&gt;
+&lt;p&gt;Currently these are the changes I plan to make:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Categorise content.&lt;/li&gt;
+&lt;li&gt;Cookbook migrated to it&amp;rsquo;s own website.&lt;/li&gt;
+&lt;li&gt;New content types (see below)&lt;/li&gt;
+&lt;li&gt;Optimise image usage.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Social&amp;rdquo; links 🤔&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;new-content&#34;&gt;New content&lt;/h3&gt;
+&lt;p&gt;I&amp;rsquo;d like to expand the content that I write on this site to include things I would like to write about but didn&amp;rsquo;t think would suit the site in its current design. Now that I will be changing the design that excuse is no longer valid.&lt;/p&gt;
+&lt;p&gt;New content may include the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;More blogging&lt;/li&gt;
+&lt;li&gt;More guides&lt;/li&gt;
+&lt;li&gt;Reviews&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In regards to reviews, I came to the conclusion that writing about the music I listen to or the video games I play or the books I read could be useful to some people. After all I do seem to be asked quite frequently about what I think about a given product or band, etc. I would also like to review some of the camping gear I have acquired recently as this information is useful in general.&lt;/p&gt;
+&lt;h3 id=&#34;bots-are-fun&#34;&gt;Bots are fun&lt;/h3&gt;
+&lt;p&gt;I have been developing a bot that I intend to use as a means to bridge various platforms together that I don&amp;rsquo;t have the time or patience to manually keep up to date with. I don&amp;rsquo;t expect it to be great, it is a personal project intended to teach me how to interact with APIs and other tool sets. But it is a fun little project so far.&lt;/p&gt;
+&lt;h3 id=&#34;brewing&#34;&gt;Brewing&lt;/h3&gt;
+&lt;p&gt;Making my own wine, beer and cider has been a great hobby so far and I having been gaining a lot more experience with it. Learning the various ways that different ingredients interact, which yeast to use, how long to do things for and why. It is a great hobby and doesn&amp;rsquo;t take a lot of time to do. Although the learning curve can be somewhat of an issue depending on what you plan to do. I plan to write about my experiences with brewing alcohol at some point but for now I just wanted to update that is an ongoing hobby.&lt;/p&gt;
+&lt;h3 id=&#34;power-lifting&#34;&gt;Power lifting&lt;/h3&gt;
+&lt;p&gt;I have returned to the gym and have taken up a power lifting programming again. I have always enjoyed this sport and intend to last a lot longer at it this time.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;That&amp;rsquo;s about everything. Thanks for reading and if you are interested in anything I have mentioned feel free to &lt;a href=&#34;https://dunkelheit.xyz/contact&#34;&gt;email me&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>Twitter Still Sucks</title>
       <link>https://dunkelheit.xyz/blog/twitter-still-sucks/</link>
