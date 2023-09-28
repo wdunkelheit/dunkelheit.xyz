@@ -6,7 +6,54 @@
     <description>Recent content in technology on Dunkelheit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 18 Sep 2023 18:00:00 +0100</lastBuildDate><atom:link href="https://dunkelheit.xyz/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Sep 2023 08:00:00 +0100</lastBuildDate><atom:link href="https://dunkelheit.xyz/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simple Notes Management</title>
+      <link>https://dunkelheit.xyz/blog/simple-notes-management/</link>
+      <pubDate>Mon, 25 Sep 2023 08:00:00 +0100</pubDate>
+      
+      <guid>https://dunkelheit.xyz/blog/simple-notes-management/</guid>
+      <description>&lt;p&gt;I recently decided to start organising my notes more thoroughly and introduced a schema to my notes directory (demonstrated below). I found that this made it more likely for me to utilise my notes, which in turn has saved me a lot of time. I tend to use my notes throughout the day so I found myself needing a means to access them quickly. This is when I made a script. Utilising &lt;code&gt;fd&lt;/code&gt;, &lt;code&gt;fzf&lt;/code&gt; and &lt;code&gt;xargs&lt;/code&gt; I can now search my notes directory and start taking notes at any given time. It is working really well so far and combined with Neovim I am able to swap between notes files without leaving the comfort of the Neovim editor. If I had to put a number to it I would say that this has saved me at least half an hour a week, which is pretty good for a single line shell command.&lt;/p&gt;
+&lt;p&gt;Here is the schema:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$HOME/Documents/Notes/
+&lt;ul&gt;
+&lt;li&gt;Subject 1/
+&lt;ul&gt;
+&lt;li&gt;TODO.md&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Subject 2/
+&lt;ul&gt;
+&lt;li&gt;TODO.md&lt;/li&gt;
+&lt;li&gt;Reading.md&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Subject 3/
+&lt;ul&gt;
+&lt;li&gt;Subject 3.1/
+&lt;ul&gt;
+&lt;li&gt;Reading.md&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;List.md&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;notes.md&lt;/li&gt;
+&lt;li&gt;todo.md&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Subjects can be related to a given category of things such as music, food, hobbies, etc or used as a means of categorising further sub-categories of related notes. A lot of these notes files are checklists. I love checklists and while I could use the markdown format of a checklist, that isn&amp;rsquo;t really needed as I tend to delete entries from checklists when they have been met so I don&amp;rsquo;t have a giant list of stuff I no longer need to take note of.&lt;/p&gt;
+&lt;p&gt;These notes can be synced between devices using &lt;code&gt;rsync&lt;/code&gt; or &lt;code&gt;syncthing&lt;/code&gt; but I have had no need to implement this due to maintaining a paper notebook as my main means of notetaking. Anything important enough to need to access it on the go is already on paper and I take it with me everywhere anyway. I maintain and use a paper notebook for most of my note taking. I transfer my written notes to this system to index them. The way that I take notes in my paper notebooks is different and will maybe get it&amp;rsquo;s own post at some point.&lt;/p&gt;
+&lt;h3 id=&#34;keep-it-simple-stupid&#34;&gt;Keep It Simple, Stupid!&lt;/h3&gt;
+&lt;p&gt;While talking to a friend about this subject they mentioned that they use software specifically designed for this purpose, which I found odd since notes are just text files. They told me about Obsidian, a graphical markdown text editor that connects notes together with links and has plugin support and all kinds of bloated features that you do not need.&lt;/p&gt;
+&lt;p&gt;The idea of a monolithic solution to something as simple as note taking is rather funny to think about. Especially when it offers nothing useful on top of its main feature i.e. being a notebook on your computer. A lot of these software applications have popped up over the years and yet none of them have offered anything unique or useful. I remember my university pushing Microsoft&amp;rsquo;s OneNote as the perfect note taking solution as if a text file or document file wouldn&amp;rsquo;t suffice.&lt;/p&gt;
+&lt;p&gt;Which brings me to the one argument in favour of these tools that I see repeated most often. That being that they support some form of sync between devices. This is not a unique feature either, syncing files between devices is easily done. Cloud storage exists already for people that don&amp;rsquo;t want a DIY solution, sync tools exist for those that do. Including a file sync that is proprietary to the notes editor is a clear case of inventing problems to sell a solution. It is fundamentally worse in all regards than utilising tools that already exist for this purpose. Monolithic design for the sake of self-justification in a note taking program is insanity.&lt;/p&gt;
+&lt;p&gt;The simplest solutions are always the best, which is why I find this whole world of note taking software redundant. Any notes worth taking don&amp;rsquo;t need an entire suite of software to handle. Just write it down.&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>Projects Update</title>
       <link>https://dunkelheit.xyz/blog/projects-update/</link>

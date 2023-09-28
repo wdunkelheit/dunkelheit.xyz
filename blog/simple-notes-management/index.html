@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Simple Notes Management | Dunkelheit</title>
+        <link rel='stylesheet' type='text/css' href='https://dunkelheit.xyz/style.css'>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="alternate" type="application/rss+xml" title="Dunkelheit RSS" href="https://dunkelheit.xyz/index.xml">
+        <link rel="shortcut icon" href="https://dunkelheit.xyz/pix/favicon.ico" type="image/x-icon">
+        <meta property="og:title" content="Simple Notes Management | Dunkelheit">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://dunkelheit.xyz/pix/adventure.webp">
+        <meta property="og:url" content="https://dunkelheit.xyz/blog/simple-notes-management/">
+        <meta property="og:description" content="I recently decided to start organising my notes more thoroughly and introduced a schema to my notes directory (demonstrated below). I found that this made it more likely for me to utilise my notes, which in turn has saved me a lot of time. I tend to use my notes throughout the day so I found myself needing a means to access them quickly. This is when I made a script.">
+    </head>
+    <body>
+       </div>
+       <header>
+                <h1>Dunkelheit</h1>
+        </header>
+        
+        <nav>
+            			<ul>
+				<a href="https://dunkelheit.xyz/"><li>🏡 Home</li></a>
+				<a href="https://dunkelheit.xyz/blog"><li>📖 Feed</li></a>
+				<a href="https://dunkelheit.xyz/contact"><li>📬️ Contact</li></a>
+				<a href="https://dunkelheit.xyz/blog/index.xml"><li><img src="https://dunkelheit.xyz/pix/svg/rss.svg" alt="RSS"> RSS</li></a>
+				<a href="https://dunkelheit.xyz/donate"><li>💰 Donate</li></a>
+			</ul>
+
+        </nav>
+        <main>
+
+
+
+
+
+<h2>Simple Notes Management</h2>
+<span class="post-date">published on <time datetime="2023-25-09T08:00:00&#43;01:00">25 Sep 2023</time></span>
+<br>
+    
+
+
+<p>I recently decided to start organising my notes more thoroughly and introduced a schema to my notes directory (demonstrated below). I found that this made it more likely for me to utilise my notes, which in turn has saved me a lot of time. I tend to use my notes throughout the day so I found myself needing a means to access them quickly. This is when I made a script. Utilising <code>fd</code>, <code>fzf</code> and <code>xargs</code> I can now search my notes directory and start taking notes at any given time. It is working really well so far and combined with Neovim I am able to swap between notes files without leaving the comfort of the Neovim editor. If I had to put a number to it I would say that this has saved me at least half an hour a week, which is pretty good for a single line shell command.</p>
+<p>Here is the schema:</p>
+<ul>
+<li>$HOME/Documents/Notes/
+<ul>
+<li>Subject 1/
+<ul>
+<li>TODO.md</li>
+</ul>
+</li>
+<li>Subject 2/
+<ul>
+<li>TODO.md</li>
+<li>Reading.md</li>
+</ul>
+</li>
+<li>Subject 3/
+<ul>
+<li>Subject 3.1/
+<ul>
+<li>Reading.md</li>
+</ul>
+</li>
+<li>List.md</li>
+</ul>
+</li>
+<li>notes.md</li>
+<li>todo.md</li>
+</ul>
+</li>
+</ul>
+<p>Subjects can be related to a given category of things such as music, food, hobbies, etc or used as a means of categorising further sub-categories of related notes. A lot of these notes files are checklists. I love checklists and while I could use the markdown format of a checklist, that isn&rsquo;t really needed as I tend to delete entries from checklists when they have been met so I don&rsquo;t have a giant list of stuff I no longer need to take note of.</p>
+<p>These notes can be synced between devices using <code>rsync</code> or <code>syncthing</code> but I have had no need to implement this due to maintaining a paper notebook as my main means of notetaking. Anything important enough to need to access it on the go is already on paper and I take it with me everywhere anyway. I maintain and use a paper notebook for most of my note taking. I transfer my written notes to this system to index them. The way that I take notes in my paper notebooks is different and will maybe get it&rsquo;s own post at some point.</p>
+<h3 id="keep-it-simple-stupid">Keep It Simple, Stupid!</h3>
+<p>While talking to a friend about this subject they mentioned that they use software specifically designed for this purpose, which I found odd since notes are just text files. They told me about Obsidian, a graphical markdown text editor that connects notes together with links and has plugin support and all kinds of bloated features that you do not need.</p>
+<p>The idea of a monolithic solution to something as simple as note taking is rather funny to think about. Especially when it offers nothing useful on top of its main feature i.e. being a notebook on your computer. A lot of these software applications have popped up over the years and yet none of them have offered anything unique or useful. I remember my university pushing Microsoft&rsquo;s OneNote as the perfect note taking solution as if a text file or document file wouldn&rsquo;t suffice.</p>
+<p>Which brings me to the one argument in favour of these tools that I see repeated most often. That being that they support some form of sync between devices. This is not a unique feature either, syncing files between devices is easily done. Cloud storage exists already for people that don&rsquo;t want a DIY solution, sync tools exist for those that do. Including a file sync that is proprietary to the notes editor is a clear case of inventing problems to sell a solution. It is fundamentally worse in all regards than utilising tools that already exist for this purpose. Monolithic design for the sake of self-justification in a note taking program is insanity.</p>
+<p>The simplest solutions are always the best, which is why I find this whole world of note taking software redundant. Any notes worth taking don&rsquo;t need an entire suite of software to handle. Just write it down.</p>
+
+
+
+<div class="bottom-tags">
+    <ul class="tag-list">
+        <span>Tags: </span>
+        
+            <a href="https://dunkelheit.xyz/tags/software/"><li id="list-tag-software">software</li></a>
+        
+            <a href="https://dunkelheit.xyz/tags/technology/"><li id="list-tag-technology">technology</li></a>
+        
+    </ul>
+</div>
+
+
+
+            </main>
+            <footer>
+                			<ul>
+				<a href="https://dunkelheit.xyz/"><li>🏡 Home</li></a>
+				<a href="https://dunkelheit.xyz/blog"><li>📖 Feed</li></a>
+				<a href="https://dunkelheit.xyz/contact"><li>📬️ Contact</li></a>
+				<a href="https://dunkelheit.xyz/blog/index.xml"><li><img src="https://dunkelheit.xyz/pix/svg/rss.svg" alt="RSS"> RSS</li></a>
+				<a href="https://dunkelheit.xyz/donate"><li>💰 Donate</li></a>
+			</ul>
+
+            </footer>
+	</body>
+</html>
+
