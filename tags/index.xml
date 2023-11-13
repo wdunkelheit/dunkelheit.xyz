@@ -6,7 +6,16 @@
     <description>Recent content in Tags on Dunkelheit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 25 Sep 2023 08:00:00 +0100</lastBuildDate><atom:link href="https://dunkelheit.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Nov 2023 09:00:00 +0000</lastBuildDate><atom:link href="https://dunkelheit.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>recipes</title>
+      <link>https://dunkelheit.xyz/tags/recipes/</link>
+      <pubDate>Mon, 13 Nov 2023 09:00:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.xyz/tags/recipes/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>software</title>
       <link>https://dunkelheit.xyz/tags/software/</link>
@@ -31,15 +40,6 @@
       <pubDate>Mon, 18 Sep 2023 18:00:00 +0100</pubDate>
       
       <guid>https://dunkelheit.xyz/tags/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>recipes</title>
-      <link>https://dunkelheit.xyz/tags/recipes/</link>
-      <pubDate>Sat, 05 Aug 2023 12:00:00 +0000</pubDate>
-      
-      <guid>https://dunkelheit.xyz/tags/recipes/</guid>
       <description></description>
     </item>
     
