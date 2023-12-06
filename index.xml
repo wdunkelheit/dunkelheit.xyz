@@ -330,24 +330,6 @@ You can use any blend of meat you would like for this recipe, it is not &amp;ldq
     </item>
     
     <item>
-      <title>Site Update June 2023</title>
-      <link>https://dunkelheit.xyz/blog/site-update/</link>
-      <pubDate>Fri, 23 Jun 2023 16:30:00 +0000</pubDate>
-      
-      <guid>https://dunkelheit.xyz/blog/site-update/</guid>
-      <description>&lt;p&gt;It&amp;rsquo;s been a while since I last updated the site so here&amp;rsquo;s a rundown on what&amp;rsquo;s new.&lt;/p&gt;
-&lt;h3 id=&#34;new-content&#34;&gt;New Content&lt;/h3&gt;
-&lt;p&gt;The &lt;a href=&#34;https://dunkelheit.xyz/about&#34;&gt;about me&lt;/a&gt; page has been updated with some hobby info for those interested. I will likely be completely redoing this page over the coming weeks as I find time.&lt;/p&gt;
-&lt;p&gt;New &lt;code&gt;#tags&lt;/code&gt; in the CSS that may hint at future posts.&lt;/p&gt;
-&lt;p&gt;Various new posts and minor changes to older ones. Out of date / scope posts have been removed.&lt;/p&gt;
-&lt;h3 id=&#34;housekeeping&#34;&gt;Housekeeping&lt;/h3&gt;
-&lt;p&gt;Some backend changes have been made to make maintenance of the site easier. Nothing complex or noteworthy.&lt;/p&gt;
-&lt;h3 id=&#34;known-issues&#34;&gt;Known Issues&lt;/h3&gt;
-&lt;p&gt;None to report! :D&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>I Still Like Video Games</title>
       <link>https://dunkelheit.xyz/blog/i-still-like-video-games/</link>
       <pubDate>Fri, 23 Jun 2023 13:30:00 +0100</pubDate>
@@ -886,21 +868,6 @@ You can use any blend of meat you would like for this recipe, it is not &amp;ldq
     </item>
     
     <item>
-      <title>Library Update</title>
-      <link>https://dunkelheit.xyz/blog/library-update/</link>
-      <pubDate>Fri, 06 Jan 2023 12:30:00 +0000</pubDate>
-      
-      <guid>https://dunkelheit.xyz/blog/library-update/</guid>
-      <description>&lt;p&gt;I finally got around to cataloging (some of) my personal library and have made a page dedicated to the books of my library for those interested.&lt;/p&gt;
-&lt;p&gt;The plan is to use this as a means of keeping track of what books I have, which of them I have read and whether there is any content I have relating to it. As well as keeping a list I can access when out and about in case I need a reminder of which books I own. It is also a useful way to share my library with friends that may wish to borrow something from me.&lt;/p&gt;
-&lt;p&gt;I haven&amp;rsquo;t decided on a system of sorting the page yet. I checked &lt;a href=&#34;https://lukesmith.xyz/library&#34;&gt;Luke Smith&amp;rsquo;s library&lt;/a&gt; page and saw that he uses the Library of Congress system. Which doesn&amp;rsquo;t seem appropriate for my uses. For now I have opted for categorising books based on which genre I believe is most appropriate.&lt;/p&gt;
-&lt;p&gt;There is also the question of whether to include the likes of manga or mass market paperback fiction titles as these aren&amp;rsquo;t as meaningful as other texts although most of the ones I find myself owning are of a higher quality than one would find on the best sellers list or the advertising shelves at a chain book shop.&lt;/p&gt;
-&lt;p&gt;One reason not to include manga is simply that I have no idea how to do include them elegantly. Do I list them by author or illustrator? Many of them have multiple. For now I have settled on including them by name only until I can determine a better way to include them that is more consistent with the rest of the catalog.&lt;/p&gt;
-&lt;p&gt;If you would like to check out the library, it can be found &lt;a href=&#34;https://dunkelheit.xyz/library&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>A New Path in Life</title>
       <link>https://dunkelheit.xyz/blog/a-new-path-in-life/</link>
       <pubDate>Fri, 30 Sep 2022 14:00:00 +0100</pubDate>
@@ -1006,21 +973,6 @@ t-test-name         |   Testing branches
 &lt;/ul&gt;
 &lt;p&gt;So there are still valid uses for VPNs but for anything privacy or security related you need to know what you are doing. Otherwise you just make yourself a bigger target.&lt;/p&gt;
 &lt;p&gt;VPNs are useful tools and have valid uses, they can be used for privacy if you know what you are doing. Just be careful which one you pick and how you use it. Many VPN companies are owned by companies or in territories that are hostile to a free internet. Always research what you are buying.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Who Cares About Twitter?</title>
-      <link>https://dunkelheit.xyz/blog/who-cares-about-twitter/</link>
-      <pubDate>Tue, 26 Apr 2022 17:00:00 +0100</pubDate>
-      
-      <guid>https://dunkelheit.xyz/blog/who-cares-about-twitter/</guid>
-      <description>&lt;p&gt;Apparently it&amp;rsquo;s a big deal that Elon Musk bought Twitter. Everyone seems to be competing for the worst take regarding it. Which means it must be the Current Thing™️.&lt;/p&gt;
-&lt;p&gt;The true based and red pilled position is as always &amp;ldquo;who cares?&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;Twitter sucks, it always sucked, it will continue to suck.&lt;/p&gt;
-&lt;p&gt;Elon Musk wants to &amp;ldquo;verify all humans&amp;rdquo;, this effectively means KYCAML for Twitter. Apparently his reasoning for buying Twitter is to secure free speech online or something. A laughable statement when combined with his proposed human verification efforts.&lt;/p&gt;
-&lt;p&gt;If you want a more free (as in freedom) alternative to Twitter then maybe look into Fediverse services such as Mastodon and Pleroma. Do your research before you join an instance of course. Many of them are more censorious than Twitter.&lt;/p&gt;
-&lt;p&gt;If you want a truly free instance then run your own, create your own rules, block instances that you don&amp;rsquo;t like, etc. You can learn how to host your own Pleroma instance with their &lt;a href=&#34;https://docs-develop.pleroma.social/backend/installation/otp_en/&#34;&gt;official documentation&lt;/a&gt; or at &lt;a href=&#34;https://landchad.net/pleroma.html&#34;&gt;LandChad&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -1439,22 +1391,6 @@ t-test-name         |   Testing branches
 &lt;p&gt;This eliminates steps 3 and 4 as well as allowing me to control elements very specifically when needed and keeps the document readable.&lt;/p&gt;
 &lt;p&gt;So going forward all posts will be created this way unless it isn&amp;rsquo;t viable for the post type. All previous posts will be converted too. Top level pages AKA &amp;ldquo;base&amp;rdquo; pages will still be written in HTML for functional reasons.&lt;/p&gt;
 &lt;p&gt;Additionally the site will now be rendered using the &lt;code&gt;uglyURLs = true&lt;/code&gt; option as I don&amp;rsquo;t like the look of &lt;code&gt;/blog/post-name/index.html&lt;/code&gt; in the file tree.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Learning German</title>
-      <link>https://dunkelheit.xyz/blog/learning-german/</link>
-      <pubDate>Sun, 11 Jul 2021 07:00:00 +0000</pubDate>
-      
-      <guid>https://dunkelheit.xyz/blog/learning-german/</guid>
-      <description>&lt;p&gt;I have decided to learn German. I have always had an interest in learning another language but due to the terrible methodology used by the education system and cringe meme apps like DuoLingo I was never motivated enough to stick them out. However I recently came to discover the Michel Thomas method after reading these articles by Luke Smith: &lt;a href=&#34;https://lukesmith.xyz/articles/notes-on-learning-languages&#34;&gt;Notes on Learning Languages&lt;/a&gt; and &lt;a href=&#34;https://lukesmith.xyz/articles/learning-european-languages-michel-thomas&#34;&gt;Learning European Languages (Michel Thomas)&lt;/a&gt;. I won&amp;rsquo;t bother to summarize them here but you should definitely read them if you are interested in learning a language.&lt;/p&gt;
-&lt;p&gt;After reading these articles I was convinced to give the method a try. I will update this post every so often with my thoughts on the method so far.&lt;/p&gt;
-&lt;h2 id=&#34;so-why-german&#34;&gt;So why German?&lt;/h2&gt;
-&lt;p&gt;It&amp;rsquo;s probably the most relevant language for me to learn based on its similarities to English, my musical interests and the location of a lot of my friends. I would love to be able to travel there without being a &amp;ldquo;that guy&amp;rdquo; tourist that just speaks in English the whole time.&lt;/p&gt;
-&lt;p&gt;Additionally I believe that learning German will give me reason to explore other related languages. I have always found languages interesting, who knows maybe one day I will be able to speak to people on every continent? I&amp;rsquo;d also like to put the theory that thinking in multiple languages can give you a better understanding of concepts to the test.&lt;/p&gt;
-&lt;h3 id=&#34;update&#34;&gt;Update:&lt;/h3&gt;
-&lt;p&gt;I found the tape format to be the best method of learning German that I have tried so far however with no native German speakers around me to put my practice to the test I am kinda stuck for the moment.&lt;/p&gt;
 </description>
     </item>
     

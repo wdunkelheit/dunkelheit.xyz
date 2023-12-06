@@ -44,15 +44,6 @@
     </item>
     
     <item>
-      <title>updates</title>
-      <link>https://dunkelheit.xyz/tags/updates/</link>
-      <pubDate>Fri, 23 Jun 2023 16:30:00 +0000</pubDate>
-      
-      <guid>https://dunkelheit.xyz/tags/updates/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Video Games</title>
       <link>https://dunkelheit.xyz/tags/video-games/</link>
       <pubDate>Fri, 23 Jun 2023 13:30:00 +0100</pubDate>
@@ -90,6 +81,15 @@
     </item>
     
     <item>
+      <title>updates</title>
+      <link>https://dunkelheit.xyz/tags/updates/</link>
+      <pubDate>Wed, 22 Feb 2023 22:00:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.xyz/tags/updates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>clothing</title>
       <link>https://dunkelheit.xyz/tags/clothing/</link>
       <pubDate>Tue, 21 Feb 2023 14:30:00 +0000</pubDate>
@@ -104,15 +104,6 @@
       <pubDate>Tue, 31 Jan 2023 14:30:00 +0000</pubDate>
       
       <guid>https://dunkelheit.xyz/tags/philosophy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>books</title>
-      <link>https://dunkelheit.xyz/tags/books/</link>
-      <pubDate>Fri, 06 Jan 2023 12:30:00 +0000</pubDate>
-      
-      <guid>https://dunkelheit.xyz/tags/books/</guid>
       <description></description>
     </item>
     
@@ -158,6 +149,15 @@
       <pubDate>Tue, 30 Nov 2021 18:00:00 +0000</pubDate>
       
       <guid>https://dunkelheit.xyz/tags/cryptocurrency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>books</title>
+      <link>https://dunkelheit.xyz/tags/books/</link>
+      <pubDate>Fri, 24 Sep 2021 18:30:15 +0100</pubDate>
+      
+      <guid>https://dunkelheit.xyz/tags/books/</guid>
       <description></description>
     </item>
     

@@ -96,24 +96,6 @@
     </item>
     
     <item>
-      <title>Site Update June 2023</title>
-      <link>https://dunkelheit.xyz/blog/site-update/</link>
-      <pubDate>Fri, 23 Jun 2023 16:30:00 +0000</pubDate>
-      
-      <guid>https://dunkelheit.xyz/blog/site-update/</guid>
-      <description>&lt;p&gt;It&amp;rsquo;s been a while since I last updated the site so here&amp;rsquo;s a rundown on what&amp;rsquo;s new.&lt;/p&gt;
-&lt;h3 id=&#34;new-content&#34;&gt;New Content&lt;/h3&gt;
-&lt;p&gt;The &lt;a href=&#34;https://dunkelheit.xyz/about&#34;&gt;about me&lt;/a&gt; page has been updated with some hobby info for those interested. I will likely be completely redoing this page over the coming weeks as I find time.&lt;/p&gt;
-&lt;p&gt;New &lt;code&gt;#tags&lt;/code&gt; in the CSS that may hint at future posts.&lt;/p&gt;
-&lt;p&gt;Various new posts and minor changes to older ones. Out of date / scope posts have been removed.&lt;/p&gt;
-&lt;h3 id=&#34;housekeeping&#34;&gt;Housekeeping&lt;/h3&gt;
-&lt;p&gt;Some backend changes have been made to make maintenance of the site easier. Nothing complex or noteworthy.&lt;/p&gt;
-&lt;h3 id=&#34;known-issues&#34;&gt;Known Issues&lt;/h3&gt;
-&lt;p&gt;None to report! :D&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>I Still Like Video Games</title>
       <link>https://dunkelheit.xyz/blog/i-still-like-video-games/</link>
       <pubDate>Fri, 23 Jun 2023 13:30:00 +0100</pubDate>
@@ -494,21 +476,6 @@
 &lt;p&gt;RSS feeds should continue to work on the old domain once the domain change occurs. Once the old domain expires however it will no longer update. Please update your RSS feeds to reflect the new domain. The new feed can be found &lt;a href=&#34;https://dunkelheit.xyz/index.xml&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Email will change to the new domain at some point in the future too. I will make sure to update the site when this occurs. For now assume that the &lt;code&gt;w@dunkelheit.biz&lt;/code&gt; address is no longer functional.&lt;/p&gt;
 &lt;p&gt;Please update your RSS, email contacts, etc.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Library Update</title>
-      <link>https://dunkelheit.xyz/blog/library-update/</link>
-      <pubDate>Fri, 06 Jan 2023 12:30:00 +0000</pubDate>
-      
-      <guid>https://dunkelheit.xyz/blog/library-update/</guid>
-      <description>&lt;p&gt;I finally got around to cataloging (some of) my personal library and have made a page dedicated to the books of my library for those interested.&lt;/p&gt;
-&lt;p&gt;The plan is to use this as a means of keeping track of what books I have, which of them I have read and whether there is any content I have relating to it. As well as keeping a list I can access when out and about in case I need a reminder of which books I own. It is also a useful way to share my library with friends that may wish to borrow something from me.&lt;/p&gt;
-&lt;p&gt;I haven&amp;rsquo;t decided on a system of sorting the page yet. I checked &lt;a href=&#34;https://lukesmith.xyz/library&#34;&gt;Luke Smith&amp;rsquo;s library&lt;/a&gt; page and saw that he uses the Library of Congress system. Which doesn&amp;rsquo;t seem appropriate for my uses. For now I have opted for categorising books based on which genre I believe is most appropriate.&lt;/p&gt;
-&lt;p&gt;There is also the question of whether to include the likes of manga or mass market paperback fiction titles as these aren&amp;rsquo;t as meaningful as other texts although most of the ones I find myself owning are of a higher quality than one would find on the best sellers list or the advertising shelves at a chain book shop.&lt;/p&gt;
-&lt;p&gt;One reason not to include manga is simply that I have no idea how to do include them elegantly. Do I list them by author or illustrator? Many of them have multiple. For now I have settled on including them by name only until I can determine a better way to include them that is more consistent with the rest of the catalog.&lt;/p&gt;
-&lt;p&gt;If you would like to check out the library, it can be found &lt;a href=&#34;https://dunkelheit.xyz/library&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
