@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tutorial on Dunkelheit</title>
+    <title>Tutorial on Dunkelheit</title>
     <link>https://dunkelheit.xyz/tags/tutorial/</link>
-    <description>Recent content in tutorial on Dunkelheit</description>
+    <description>Recent content in Tutorial on Dunkelheit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Thu, 08 Jun 2023 12:30:00 +0100</lastBuildDate><atom:link href="https://dunkelheit.xyz/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
@@ -38,7 +38,7 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;You can now launch OpenMW via Steam by clicking Play on your Morrowind entry.&lt;/p&gt;
-&lt;p&gt;This trick will work for other games too. For example DOOM and DOOM 2 and your personal favourite source port.&lt;/p&gt;
+&lt;p&gt;This trick will work for other games too. For example Daggerfall Unity, DOOM and DOOM 2 and your personal favourite source port(s).&lt;/p&gt;
 &lt;h3 id=&#34;update&#34;&gt;Update&lt;/h3&gt;
 &lt;p&gt;As far as I am aware you can&amp;rsquo;t do this to track game time for Morrowind on a Mac as Steam won&amp;rsquo;t let you launch the game even if you manage to get it to download the game files via a manifest file or console commands.&lt;/p&gt;
 </description>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>blog on Dunkelheit</title>
+    <title>Blog on Dunkelheit</title>
     <link>https://dunkelheit.xyz/tags/blog/</link>
-    <description>Recent content in blog on Dunkelheit</description>
+    <description>Recent content in Blog on Dunkelheit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Mon, 18 Sep 2023 18:00:00 +0100</lastBuildDate><atom:link href="https://dunkelheit.xyz/tags/blog/index.xml" rel="self" type="application/rss+xml" />
@@ -49,18 +49,6 @@
     </item>
     
     <item>
-      <title>Twitter Still Sucks</title>
-      <link>https://dunkelheit.xyz/blog/twitter-still-sucks/</link>
-      <pubDate>Thu, 16 Mar 2023 17:30:00 +0000</pubDate>
-      
-      <guid>https://dunkelheit.xyz/blog/twitter-still-sucks/</guid>
-      <description>&lt;p&gt;I recently made a new Twitter account to follow some accounts while my usual manner of reading them via RSS feeds (thanks to &lt;a href=&#34;https://nitter.net&#34;&gt;Nitter&lt;/a&gt;) were unavailable.&lt;/p&gt;
-&lt;p&gt;Surprising no one, the website still sucks and has all the problems that it had before except now you can pay for a dunce cap on your account.&lt;/p&gt;
-&lt;p&gt;What a waste of time that was!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>A Blog Without Blogging</title>
       <link>https://dunkelheit.xyz/blog/a-blog-without-blogging/</link>
       <pubDate>Tue, 28 Feb 2023 18:00:00 +0000</pubDate>
@@ -71,18 +59,6 @@
 &lt;p&gt;I intend to change that. The idea of writing a blog is appealing I&amp;rsquo;ve just never felt like I had anything interesting going on. I blame doing a CompSci degree for this though. Now that I am doing a degree that I actually want to do I have probably too much that I want to write down about it.&lt;/p&gt;
 &lt;p&gt;When last semester ended I planned to blog about my experience, what I thought of the various classes, the campus, the environment of the university in general but I never got around to it. So I will cover both semesters at the same time when this one is finished.&lt;/p&gt;
 &lt;p&gt;In fact there is a bunch of stuff I would like to start writing about that I haven&amp;rsquo;t had the time to. Such as book reviews, travel logs and personal updates. The idea of &amp;ldquo;building your own platform&amp;rdquo; was supposed to give the opportunity to do these things and I never took advantage of it when I wanted to. I will be doing so more often starting now.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>A New Path in Life</title>
-      <link>https://dunkelheit.xyz/blog/a-new-path-in-life/</link>
-      <pubDate>Fri, 30 Sep 2022 14:00:00 +0100</pubDate>
-      
-      <guid>https://dunkelheit.xyz/blog/a-new-path-in-life/</guid>
-      <description>&lt;p&gt;I recently graduated from my Computer Science degree program. I did not enjoy my time on this degree as much as I had hoped when I started. Computers were my passion at one point in the past, but not so much any more. I still enjoy using the skills I developed and researching the industry out of curiousity. Ultimately though I pushed through to finish what I started and was glad when it was over.&lt;/p&gt;
-&lt;p&gt;But now I am a free man and I am going back into academia to study a completely different field that I am actually passionate for: Archaeology and History. Specifically Celtic and Anglo-Saxon history. Which is the field that I have always wanted to study but was misled by well-meaning and sincere concern over &amp;ldquo;employability&amp;rdquo; regarding such a subject. Personally I am not too concerned with the employability of such a degree. Afterall I was led to believe that CompSci would make me a millionaire.&lt;/p&gt;
-&lt;p&gt;I plan to write about my time on this degree as the subjects themselves are very fascinating but the way that they flow between each other by coincidence is very exciting.&lt;/p&gt;
 </description>
     </item>
     

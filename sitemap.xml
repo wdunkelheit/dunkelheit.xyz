@@ -2,14 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://dunkelheit.xyz/</loc>
-    <lastmod>2023-11-17T12:00:00+00:00</lastmod>
+    <loc>https://dunkelheit.xyz/categories/2025/</loc>
+    <lastmod>2025-03-12T12:20:00+00:00</lastmod>
   </url><url>
-    <loc>https://dunkelheit.xyz/tags/recipes/</loc>
-    <lastmod>2023-11-17T12:00:00+00:00</lastmod>
+    <loc>https://dunkelheit.xyz/blog/</loc>
+    <lastmod>2025-03-12T12:20:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dunkelheit.xyz/</loc>
+    <lastmod>2025-03-12T12:20:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dunkelheit.xyz/tags/software/</loc>
+    <lastmod>2025-03-12T12:20:00+00:00</lastmod>
   </url><url>
     <loc>https://dunkelheit.xyz/tags/</loc>
-    <lastmod>2023-11-17T12:00:00+00:00</lastmod>
+    <lastmod>2025-03-12T12:20:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dunkelheit.xyz/tags/technology/</loc>
+    <lastmod>2025-03-12T12:20:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dunkelheit.xyz/blog/the-apple-ecosystem-is-normie-coded/</loc>
+    <lastmod>2025-03-12T12:20:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dunkelheit.xyz/tags/recipes/</loc>
+    <lastmod>2025-03-05T12:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://dunkelheit.xyz/recipes/texas-chilli/</loc>
+    <lastmod>2025-03-05T12:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://dunkelheit.xyz/blog/i-hate-generative-neural-networks/</loc>
+    <lastmod>2025-03-03T01:26:25+00:00</lastmod>
+  </url><url>
+    <loc>https://dunkelheit.xyz/tags/philosophy/</loc>
+    <lastmod>2025-03-03T01:26:25+00:00</lastmod>
+  </url><url>
+    <loc>https://dunkelheit.xyz/categories/2024/</loc>
+    <lastmod>2024-08-02T16:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://dunkelheit.xyz/recipes/salsa/</loc>
+    <lastmod>2024-08-02T16:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://dunkelheit.xyz/recipes/steak-and-ale-stew/</loc>
+    <lastmod>2024-03-23T12:45:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dunkelheit.xyz/recipes/sausagemeat-stuffing/</loc>
+    <lastmod>2023-12-06T10:30:00+00:00</lastmod>
   </url><url>
     <loc>https://dunkelheit.xyz/recipes/yule-fruit-cake/</loc>
     <lastmod>2023-11-17T12:00:00+00:00</lastmod>
@@ -20,19 +56,7 @@
     <loc>https://dunkelheit.xyz/recipes/mint-yoghurt-sauce/</loc>
     <lastmod>2023-11-13T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dunkelheit.xyz/2023/</loc>
-    <lastmod>2023-09-25T08:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://dunkelheit.xyz/blog/</loc>
-    <lastmod>2023-09-25T08:00:00+01:00</lastmod>
-  </url><url>
     <loc>https://dunkelheit.xyz/blog/simple-notes-management/</loc>
-    <lastmod>2023-09-25T08:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://dunkelheit.xyz/tags/software/</loc>
-    <lastmod>2023-09-25T08:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://dunkelheit.xyz/tags/technology/</loc>
     <lastmod>2023-09-25T08:00:00+01:00</lastmod>
   </url><url>
     <loc>https://dunkelheit.xyz/tags/blog/</loc>
@@ -44,12 +68,6 @@
     <loc>https://dunkelheit.xyz/recipes/tomato-sauce/</loc>
     <lastmod>2023-08-05T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dunkelheit.xyz/blog/i-still-like-video-games/</loc>
-    <lastmod>2023-06-23T13:30:00+01:00</lastmod>
-  </url><url>
-    <loc>https://dunkelheit.xyz/tags/video-games/</loc>
-    <lastmod>2023-06-23T13:30:00+01:00</lastmod>
-  </url><url>
     <loc>https://dunkelheit.xyz/tags/linux/</loc>
     <lastmod>2023-06-08T12:30:00+01:00</lastmod>
   </url><url>
@@ -59,11 +77,11 @@
     <loc>https://dunkelheit.xyz/tags/tutorial/</loc>
     <lastmod>2023-06-08T12:30:00+01:00</lastmod>
   </url><url>
-    <loc>https://dunkelheit.xyz/recipes/cranmeode/</loc>
-    <lastmod>2023-03-20T12:30:00+00:00</lastmod>
+    <loc>https://dunkelheit.xyz/tags/video-games/</loc>
+    <lastmod>2023-06-08T12:30:00+01:00</lastmod>
   </url><url>
-    <loc>https://dunkelheit.xyz/blog/twitter-still-sucks/</loc>
-    <lastmod>2023-03-16T17:30:00+00:00</lastmod>
+    <loc>https://dunkelheit.xyz/recipes/cranmeode/</loc>
+    <lastmod>2024-08-02T15:30:00+00:00</lastmod>
   </url><url>
     <loc>https://dunkelheit.xyz/recipes/sourdough-starter/</loc>
     <lastmod>2023-03-01T10:30:00+00:00</lastmod>
@@ -83,12 +101,6 @@
     <loc>https://dunkelheit.xyz/tags/updates/</loc>
     <lastmod>2023-02-22T22:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dunkelheit.xyz/tags/clothing/</loc>
-    <lastmod>2023-02-21T14:30:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dunkelheit.xyz/blog/every-day-carry/</loc>
-    <lastmod>2023-02-21T14:30:00+00:00</lastmod>
-  </url><url>
     <loc>https://dunkelheit.xyz/recipes/overnight-oats/</loc>
     <lastmod>2023-02-21T14:00:30+00:00</lastmod>
   </url><url>
@@ -101,26 +113,11 @@
     <loc>https://dunkelheit.xyz/blog/having-fun-is-trad/</loc>
     <lastmod>2023-01-31T14:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://dunkelheit.xyz/tags/philosophy/</loc>
-    <lastmod>2023-01-31T14:30:00+00:00</lastmod>
-  </url><url>
     <loc>https://dunkelheit.xyz/blog/domain-name-change-update/</loc>
     <lastmod>2023-01-07T18:30:00+01:00</lastmod>
   </url><url>
-    <loc>https://dunkelheit.xyz/2022/</loc>
-    <lastmod>2022-09-30T14:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://dunkelheit.xyz/blog/a-new-path-in-life/</loc>
-    <lastmod>2022-09-30T14:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://dunkelheit.xyz/tags/archaeology/</loc>
-    <lastmod>2022-09-30T14:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://dunkelheit.xyz/tags/history/</loc>
-    <lastmod>2022-09-30T14:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://dunkelheit.xyz/tags/language/</loc>
-    <lastmod>2022-09-30T14:00:00+01:00</lastmod>
+    <loc>https://dunkelheit.xyz/2023/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dunkelheit.xyz/blog/an-introduction-to-git-etiquette/</loc>
     <lastmod>2022-07-19T21:00:00+01:00</lastmod>
@@ -137,8 +134,8 @@
     <loc>https://dunkelheit.xyz/blog/encrypting-an-external-storage-device/</loc>
     <lastmod>2022-04-02T09:20:00+01:00</lastmod>
   </url><url>
-    <loc>https://dunkelheit.xyz/2021/</loc>
-    <lastmod>2021-11-30T18:00:00+00:00</lastmod>
+    <loc>https://dunkelheit.xyz/2022/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dunkelheit.xyz/blog/bitcoin-monero-extremism/</loc>
     <lastmod>2021-11-30T18:00:00+00:00</lastmod>
@@ -176,7 +173,14 @@
     <loc>https://dunkelheit.xyz/blog/video-games-are-over/</loc>
     <lastmod>2021-07-10T07:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://dunkelheit.xyz/2021/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://dunkelheit.xyz/about/</loc>
+  </url><url>
+    <loc>https://dunkelheit.xyz/about/me/</loc>
+  </url><url>
+    <loc>https://dunkelheit.xyz/about/site/</loc>
   </url><url>
     <loc>https://dunkelheit.xyz/contact/</loc>
   </url><url>

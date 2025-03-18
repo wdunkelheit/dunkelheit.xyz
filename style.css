@@ -120,6 +120,15 @@ img {
     display: block;
 }
 
+.webpin {
+    max-height: 33px;
+    display: inline-block;
+}
+.webpins-div {
+    display: flex;
+    justify-content: center;
+}
+
 p img, li img, h1 img, h2 img, h3 img, h4 img, .inlineImg {
 	display: inline;
 	max-height: 1em;
@@ -312,6 +321,19 @@ ul time {
 	font-family: monospace;
 }
 
+/* May or may not implement fully */
+#prevart {
+	float: left ;
+	text-align: left ;
+}
+#nextart {
+	float: right ;
+	text-align: right ;
+}
+#nextart,#prevart {
+	max-width: 25% ;
+}
+
 /* Tag Symbols */
 *[id^='list-tag-']:BEFORE { content: "❓ "; }
 #list-tag-archaeology:BEFORE { content: "⛏ "; }
@@ -323,10 +345,12 @@ ul time {
 #list-tag-history:BEFORE { content: "📜 "; }
 #list-tag-language:BEFORE { content: "🔠 "; }
 #list-tag-linux:BEFORE { content: "🐧 "; }
+#list-tag-mac:BEFORE { content: "🍎 "; }
 #list-tag-music:BEFORE { content: "🎵 "; }
 #list-tag-programming:BEFORE { content: "💻 "; }
 #list-tag-philosophy:BEFORE { content: "🤔 "; }
 #list-tag-recipes:BEFORE { content: "👨🏻‍🍳 "; }
+#list-tag-review:BEFORE { content: "⭐ "; }
 #list-tag-software:BEFORE { content: "💾 "; }
 #list-tag-technology:BEFORE { content: "🏭 "; }
 #list-tag-tutorial:BEFORE { content: "🏫‍ "; }

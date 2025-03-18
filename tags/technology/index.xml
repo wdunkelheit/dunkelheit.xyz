@@ -1,12 +1,56 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>technology on Dunkelheit</title>
+    <title>Technology on Dunkelheit</title>
     <link>https://dunkelheit.xyz/tags/technology/</link>
-    <description>Recent content in technology on Dunkelheit</description>
+    <description>Recent content in Technology on Dunkelheit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 25 Sep 2023 08:00:00 +0100</lastBuildDate><atom:link href="https://dunkelheit.xyz/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Mar 2025 12:20:00 +0000</lastBuildDate><atom:link href="https://dunkelheit.xyz/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Apple Ecosystem Is Normie Coded</title>
+      <link>https://dunkelheit.xyz/blog/the-apple-ecosystem-is-normie-coded/</link>
+      <pubDate>Wed, 12 Mar 2025 12:20:00 +0000</pubDate>
+      
+      <guid>https://dunkelheit.xyz/blog/the-apple-ecosystem-is-normie-coded/</guid>
+      <description>&lt;p&gt;In a moment of minimalist induced madness I decided to try out the Apple ecosystem, this was a few years ago now and I have been using it long enough to have formed my opinions on it based on experience and observation.&lt;/p&gt;
+&lt;p&gt;Put simply, the Apple ecosystem is normie coded. This is not intended as an insult or a smug remark however, in fact it&amp;rsquo;s just a conclusion and one that I think Apple themselves are aiming for. These devices have nailed their intended function: be a device that does everything the user expects, do it in the simplest way possible to avoid user frustration and sell the user on the concept of &amp;ldquo;less is more&amp;rdquo;. Let&amp;rsquo;s get some things clear and dismiss a few myths: Apple devices are powerful hardware (this is obiviously the case),  they aare and aren&amp;rsquo;t walled gardens (this is complicated) and they are not designed exclusively for non-technical customers which is probably the most common and reddit coded take someone could have on Apple devices. Keep these observations in mind as I explore my experience with these devices and explain my thoughts regarding whether or not the Apple ecosystem is worthwhile for myself or for you.&lt;/p&gt;
+&lt;p&gt;Before I begin I will mention that this is written with my experience with the iPhone 15, Macbook Air M1 and AirPods Pro 2nd generation as my Apple experience.&lt;/p&gt;
+&lt;h3 id=&#34;hardware&#34;&gt;Hardware&lt;/h3&gt;
+&lt;p&gt;Let&amp;rsquo;s start with the simplest part of the Apple package, the hardware. These devices are powerful, they have fantastic battery lives and they are extremely lightweight and clean in their construction. Can you get more powerful devices for the money? absolutely, better battery life? I assume so, just as lightweight? of course. But can you get a device that is just as clean? yeah that&amp;rsquo;s possible too. But from all my research I could not find devices that met all these requirements at once at the same price point. Now of course hardware is not the be all and end all of whether a device is good and in my expierence it&amp;rsquo;s the software that matters most to me. Which is where pretty much every single complaint I have about the Apple ecosystem finds itself levelled. Or put simply: if I could have Linux on my Macbook I would, if I could have Android on an iPhone would I? no, I&amp;rsquo;d rather have an Android phone than an &amp;ldquo;iDroid&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;With these devices I can honestly say that I was impressed by what I used but mostly by the battery life and the lightweight construction of the Macbook Air M1. I used this thing as my daily driver for a year, travelling to and from classes, the library and home and only needing to charge it at night before bed. I pretty much never turned the thing off except for updates and it would just open up to everything I had before instantly, everytime. I loved this, I still love this, it&amp;rsquo;s pretty much my favourite part of this machine. This was the killer feature of this device for me and it still is. The battery life on this thing is phenomenal and since I only used it for the purpose of writing, note taking, programming and web browsing it did everything I needed and more, incredibly quickly and without any major effect on the battery life of the device. A stressfree experience with battery life and performance is what I want in a laptop and I can say that I got what I wanted.&lt;/p&gt;
+&lt;p&gt;Regarding the hardware of the iPhone 15 I was also impressed, this phone is fast, has decent battery life (regardless of poor battery optimisation of App Store applications) and the camera takes the greatest video I have ever seen on a mobile device as well as excellent photographs. So in terms of the abstract hardware features I found the device to be pleasant to use and had no real issues related to it&amp;rsquo;s hardware performance. Pretty much every issue I had with this device was with it&amp;rsquo;s software and the ecosystem it is built around.&lt;/p&gt;
+&lt;p&gt;Wireless earbuds are not really my thing, I prefer headphones and I&amp;rsquo;d prefer them to be wired if possible but every phone manufacturer has taken it upon themselves to make it their personal crusade to make sure that no device has an audio jack. So I got a pair of AirPods Pro 2 for the gym as inears are much more comfortable in this environment. I love these things for the gym and for walking, the noise cancellation in particular is incredibly useful is a busy gym that blasts the worst music they could possible choose for that environment and the battery life on these things is seemingly endless. But a lot of these features stop working the second you use them on a non-Apple device which is a major red flag for me and one of the reasons I plan to leave the Apple plantation. (Spoilers!)&lt;/p&gt;
+&lt;p&gt;If I could rate Apple products on their hardware experience alone I&amp;rsquo;d say that it is fundamentally solid and whilst you pay a premium for the polish you do get what you pay for if you use these devices daily for their intended purposes. But that&amp;rsquo;s where the positives of Apple products are expected and unfortunately they start to become burdensome as we move on to looking at their software suite, also known as the Apple Ecosystem.&lt;/p&gt;
+&lt;h3 id=&#34;software&#34;&gt;Software&lt;/h3&gt;
+&lt;p&gt;Apple&amp;rsquo;s software suite is known as the Apple Ecosystem by most technologically concious internet users although I am unsure if it is a term that Apple themselves use or not, not that it matters as it is part of the zeitgeist whether they like it or not. I was unsure where to begin when talking about this ecosystem but I have come to the conclusion that there are a lot of positives to speak about that give more context to the negatives, so for the sake of not repeating myself to explain points I will start with the positives.&lt;/p&gt;
+&lt;p&gt;When it comes to the quality of Apple&amp;rsquo;s software engineering I don&amp;rsquo;t think anyone could say with a straight face that it is aesthetically or functionally bad. Aesthetics are a personal preference but when there is a unified design standard for the user interface in a given software suite I am willing to put aside some animosity towards the things I don&amp;rsquo;t like because at least less of my time is being wasted. Fortunately however I don&amp;rsquo;t have many negative things to say regarding the user interface of Apple&amp;rsquo;s software suites. In fact I find it to be a bit too intuitive that I feel like I may be missing something in some cases. So the design isn&amp;rsquo;t bad in my experience, and as a long time Linux user I can see where a lot of desktop application design ideas got their inspiration from. Functionally speaking I found no real issue with Apple&amp;rsquo;s software other than their terminal and text editor being rather basic by my standards but considering you even get something with a decent featureset out of the box compared to what I recall from Windows I will let it slide. I am willing to let it slide even further as MacOS is a &amp;ldquo;Unix&amp;rdquo; system and is immediately familiar to me and the tools that I use.&lt;/p&gt;
+&lt;p&gt;The included office suite is not only functional and has seemingly zero bloat but I actually really enjoyed using it to the point of missing it when I revert to using LibreOffice on my Linux desktop. The mail client is also a shining example of a fantastic application that gets the job done, although it misses some features I would have liked. The desktop experience is serviceable, I don&amp;rsquo;t find myself using the desktop much as I open the device to my opened tasks and continue what I was doing anyway. Safari is a serviceable browser but I installed Brave and Firefox almost immediately anyway, unlike on the iPhone you can actually install software on the Mac from outside of the app store. Once I had Homebrew installed and setup I installed all of my go to software immediately, dropped my dotfiles where they needed to go and it was as if I was back on my Linux desktop, other than the Mac desktop it was pretty much the same experience. The issues of the walled garden are seemingly exclusive to the iPhone but this is not true. On a Mac the walled garden has a gate and you can come and go as you please for the most part. On iPhone this is absolutely not the case.&lt;/p&gt;
+&lt;p&gt;On an iPhone you have to use what comes with the device or what you can find on the app store and you have to like it. In my case this didn&amp;rsquo;t bother me too much, in fact it was weirdly a selling point for me at the time as I didn&amp;rsquo;t want to have a device on my person that would distract me and I don&amp;rsquo;t have much of a desire to use my phone for anything other than calls, email, messages, camera and music. All of these features  come with the device as they do pretty much all Android devices too, although there are issues with these on Android too that is outside the scope of what I plan to discuss here. My biggest issue with the Apple ecosystem is not the locked down nature of the device itself, although I oppose this on principle but rather the fact that to put my own music on the device requires a Windows or Mac computer. Which luckily I had a Mac but then the process of moving music to the device was a nightmare as well. This is where the tyrannical nature of the walled garden is most blatant, if you want to use your own music you will be inconvenienced. If you want to sync your files, upload your photographs, videos, etc to your computer instead of iCloud, you will be inconvenienced. There are more examples of this but I think I make the point most clear with these as they are the most basic and fundamental examples of things I should be able to do when and how I want yet there are so many loops to jump through to do so. This will be the reason I switch to Android with my next phone.&lt;/p&gt;
+&lt;p&gt;If I tried to explain to someone that I was having these issues I know that I would be met with &amp;ldquo;just use iCloud then&amp;rdquo; or &amp;ldquo;pay for Apple music then&amp;rdquo; which not only would be completely ignoring the actual issue but creates an entirely new one. Why do I have to pay for an alternative when the standard option isn&amp;rsquo;t available in the first place? This is where the &amp;ldquo;normie coded&amp;rdquo; nature of the Apple ecosystem becomes obvious. These &amp;ldquo;solutions&amp;rdquo; to the problem are not solutions at all but the expected manner that you would use the device in. Apple Music, iCloud, Apple Fitness, etc everything is a subscription service. I don&amp;rsquo;t pay for any subscription services for reasons that should be obvious but in case it isn&amp;rsquo;t: why should I pay someone else to use my own stuff? Sure I can put my own music on the phone, sure I can get my photos and videos off the phone, but I have to jump through artificial hoops to do so when this was never the case on Android or in the age before the &amp;ldquo;smart phone&amp;rdquo;. Subscription services are a form of digital slavery and the way that the iPhone practically forces it upon their users is quite simply unacceptable. I&amp;rsquo;m not going to give in and pay for them but I surely will not be buying a new phone either and they can forget me jumping through their hoops. I have a Walkman A35 that I love and was using when I first got the iPhone, I had no idea of half these issues until I had owned the thing for almost a year I&amp;rsquo;m going to keep using my Walkman even when I switch to another platform for my mobile device which I will be doing out of principle. I will be decoupling myself from the iPhone and the Apple ecosystem entirely over this ridiculous and offensive push towards digital slavery. It doesn&amp;rsquo;t need to be like this so I choose for it not to be.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s a shame that devices with such great hardware and software quality have such a crippling and ridiculous model of user exploitation baked into the design of the software suite. The iPhone having less features but better implementation of them was one of it&amp;rsquo;s selling points to me originally but their approach to simplicity being built around the idea of outright blocking you from using alternatives is a counter to any benefit it has to not being a distraction.&lt;/p&gt;
+&lt;p&gt;An important observation to be made is that since it is designed this way on purpose, Apple knows that they can exploit their users this way and get away with it and they do get away with it.&lt;/p&gt;
+&lt;h3 id=&#34;normie-coded&#34;&gt;Normie Coded&lt;/h3&gt;
+&lt;p&gt;Apple&amp;rsquo;s devices are great and their ecosystem is awful. Conceptually the idea of a &amp;ldquo;software ecosystem&amp;rdquo; is kinda gross. It is normie coded in that it is designed to turn a consumer into a dependant and that allows for a vampiric business model of selling expensive devices that &amp;ldquo;just work&amp;rdquo; to people that don&amp;rsquo;t know any better (this is not their fault) and then exploiting them with service fees for features that they have no alternative to. There is a demographic of users that will enjoy this business model, that don&amp;rsquo;t mind being ripped off because they would rather have convenience and these users would still opt into these services if alternatives were possible in fact they would likely see these services as an even greater convenience in that context.&lt;/p&gt;
+&lt;p&gt;Denying paying customers basic features and selling worse alternatives back to them at a monthly fee is disrespectful and outright exploitation. It is targeted to demographics that don&amp;rsquo;t know any better and will enjoy their exploitation because it is convenient to them.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m glad I got to try this experiment and see for myself just how bad it can be. It makes me appreciate just how good I have it and how much better it can be when I eventually switch to something better.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>I Hate Generative Neural Networks</title>
+      <link>https://dunkelheit.xyz/blog/i-hate-generative-neural-networks/</link>
+      <pubDate>Mon, 03 Mar 2025 01:26:25 +0000</pubDate>
+      
+      <guid>https://dunkelheit.xyz/blog/i-hate-generative-neural-networks/</guid>
+      <description>&lt;p&gt;I have noticed over the past year a creep of images generated using Neural Networking software, referred to by normies as &amp;ldquo;AI&amp;rdquo; (lol) and I quite simply cannot stand the absolutely soulless and boring nature of it. Every single &amp;ldquo;AI&amp;rdquo; generated image, video, etc that I have seen is blatantly obvious in its origin. They are always ugly and without any telling features that would be present in something manmade.&lt;/p&gt;
+&lt;p&gt;Another observation that I find to be quite telling of the mindset of those that use them as that they are always used in a tasteless manner or in place of an image that would be more appropriate and already exists. For example: an &amp;ldquo;AI&amp;rdquo; generated image of a character from Lord of the Rings, when there already exists a series of movies, many video games, several art books, countless RPG source books and plenty more examples I could list but you get my point. These works already have an inexhaustible quantity of appropriate high quality images one could use.&lt;/p&gt;
+&lt;p&gt;These technologies are developed using stolen art, music, etc and are seemingly used by people with a confused mindset in which they believe that the image they use needs to be &amp;ldquo;unique&amp;rdquo; to stand out which ironically is not a satisfied condition when the image generated is plagiarizing the work of others and has the exact same weird soulless &amp;ldquo;AI&amp;rdquo; (lack of) aesthetic that all of these images seemingly have. In the rare cases where these images are convincing at first glance they are always betrayed by their (lack of, or overcompensated) details and once these patterns are noticed they will never pass the test of first glance again.&lt;/p&gt;
+&lt;p&gt;Other than their boring, hideous and soulless aesthetic these images are generated using stolen artwork taken without permission. Which normally wouldn&amp;rsquo;t be something I am bothered by as I have no dog in the fight regarding the sanctity of corporate slop. However not all art is corporate slop and not all artists are compensated fairly for their art. Put simply: there are artists that make art I like, I want to see more of their art, their art can only be made by these artists, anything generated using their art as a source is a defacto counterfeit and therefore fraudulent, fraud is bad.&lt;/p&gt;
+&lt;p&gt;Use of this technology is an immediate filter as far as I am concerned. Media making use of it isn&amp;rsquo;t worthy of my time because quite simply it isn&amp;rsquo;t real. It has no creative value as it is not creative. A unconvincing masquerade attempting to cover for a lack of talent or inability to dedicate effort to something. I don&amp;rsquo;t like being lied to or having people try to deceive me, I could go on and list many more reasons why I cannot stand this ridiculous facade of an &amp;ldquo;art movement&amp;rdquo; but I don&amp;rsquo;t believe it deserves my time or effort, I have enough self respect not to use these tools to generate my arguments for me and know that what I have said should be more than enough for anyone of a critical thinking mind to grasp the spirit of my points.&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>Simple Notes Management</title>
       <link>https://dunkelheit.xyz/blog/simple-notes-management/</link>
@@ -92,217 +136,6 @@
 &lt;p&gt;I have returned to the gym and have taken up a power lifting programming again. I have always enjoyed this sport and intend to last a lot longer at it this time.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;That&amp;rsquo;s about everything. Thanks for reading and if you are interested in anything I have mentioned feel free to &lt;a href=&#34;https://dunkelheit.xyz/contact&#34;&gt;email me&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>I Still Like Video Games</title>
-      <link>https://dunkelheit.xyz/blog/i-still-like-video-games/</link>
-      <pubDate>Fri, 23 Jun 2023 13:30:00 +0100</pubDate>
-      
-      <guid>https://dunkelheit.xyz/blog/i-still-like-video-games/</guid>
-      <description>&lt;p&gt;I have previously written about how video games aren&amp;rsquo;t fun any more. This is a bit of a follow up based on some recent thoughts.&lt;/p&gt;
-&lt;p&gt;Recently I have been playing some video games on Linux via Steam&amp;rsquo;s &lt;code&gt;Proton&lt;/code&gt; and &lt;code&gt;gamescope&lt;/code&gt; tools and was amazed that somehow this made Windows games that are notorious for instability incredibly more stable. It has been fun to play Fallout: New Vegas again (unmodded) and it just works™️!&lt;/p&gt;
-&lt;p&gt;It has been fun to just play this game again, it is one of my favourites and playing it again after so long has been a nostalgia trip I was in need of.&lt;/p&gt;
-&lt;p&gt;Which brings me to my point, I still like video games! In particular I still like the video games I used to like. The various issues of modern gaming are still prolific and getting worse but my favourite games are from before this time. I can just run them, play them and enjoy myself without having to avoid, circumvent, grind out, etc the various chores and time/money gates found in almost all modern games.&lt;/p&gt;
-&lt;p&gt;It is fun to have fun and I have found myself having fun with video games again.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Every Day Carry and Equipment</title>
-      <link>https://dunkelheit.xyz/blog/every-day-carry/</link>
-      <pubDate>Tue, 21 Feb 2023 14:30:00 +0000</pubDate>
-      
-      <guid>https://dunkelheit.xyz/blog/every-day-carry/</guid>
-      <description>&lt;p&gt;I get asked for recommendations often regarding technology, clothing, boots, watches, etc and while these are topics I could talk about for hours on end, I simply don&amp;rsquo;t have the time to do so sometimes. As such I thought it would be useful to create an easy to navigate index of what I have, use and recommend that I can share with those interested.&lt;/p&gt;
-&lt;p&gt;As with the &lt;a href=&#34;https://dunkelheit.xyz/library&#34;&gt;library&lt;/a&gt; this list is likely incomplete and poorly formatted. It will get better over time (hopefully) unless I forget (perhaps).&lt;/p&gt;
-&lt;h3 id=&#34;equipment&#34;&gt;Equipment:&lt;/h3&gt;
-&lt;p&gt;This is my currently equipped items.&lt;/p&gt;
-&lt;h4 id=&#34;luggage&#34;&gt;Luggage&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Backpack&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Mil-Tec Molle Tactical Assault Pack
-&lt;ul&gt;
-&lt;li&gt;A high quality reproduction / knock-off of some military design backpack. It is waterproof enough for my needs and can carry a significant amount of cargo.&lt;/li&gt;
-&lt;li&gt;The listings for these online will say it is 20l or 25l I&amp;rsquo;m not sure which is accurate or if some are only listing the main compartment. Regardless this bag is excellent for my needs. I bought a second one for this reason.&lt;/li&gt;
-&lt;li&gt;I paid £35 for each of them, I would recommend them at this price. However if you can get something with equal features without a tactical / military look to it that may be the more practical option.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Gym Bag&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Adidas Essentials Linear Duffel Bag Medium
-&lt;ul&gt;
-&lt;li&gt;This 40 liter duffel bag is huge, it can hold all of my gym equipment and then some and it weighs basically nothing.&lt;/li&gt;
-&lt;li&gt;I&amp;rsquo;m not sure about its durability but I have had no issues with it so far. It has held up better than more expensive bags I have used in the past.&lt;/li&gt;
-&lt;li&gt;I paid £15 for it. I&amp;rsquo;d recommend it at this price.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;computers&#34;&gt;Computers&lt;/h4&gt;
-&lt;p&gt;Listed in order of most frequent use:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Macbook Air M1&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;First generation base model Macbook Air running Apple silicon.&lt;/li&gt;
-&lt;li&gt;Ideal University computer due to battery life and compatibility with required software.&lt;/li&gt;
-&lt;li&gt;See my current and recommend &lt;a href=&#34;#peripherals&#34;&gt;accessories&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Custom Desktop PC&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Specs:
-&lt;ul&gt;
-&lt;li&gt;R5 2600 CPU&lt;/li&gt;
-&lt;li&gt;RX 580&lt;/li&gt;
-&lt;li&gt;32GB DDR4 RAM&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Artix Linux System&lt;/li&gt;
-&lt;li&gt;Gaming capable, not that I really bother these days.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;ThinkPad T440p&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Portable Linux computer. Fairly well upgraded.&lt;/li&gt;
-&lt;li&gt;For when I need penguin mode on the go. Which I haven&amp;rsquo;t recently hence it&amp;rsquo;s location on the list.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;ThinkPad X230&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Backup for the T440p&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h4 id=&#34;portable-electronics&#34;&gt;Portable Electronics&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Headphones&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Sennheiser HD450SE Wireless Headphones
-&lt;ul&gt;
-&lt;li&gt;Perfect headphones for traveling. Not too powerful, they don&amp;rsquo;t need to be. Comfortable enough, may need slackened (at your own risk) depending on your head shape / size. I paid £70 for them. I would recommend them at this price.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Mobile Phone&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Google Pixel 7
-&lt;ul&gt;
-&lt;li&gt;Charcoal Black model of course.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;peripherals&#34;&gt;Peripherals&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Macbook Dock&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;ABIWAZY USB C Docking Station
-&lt;ul&gt;
-&lt;li&gt;Generic Thunderbolt docking station for laptops that support it.&lt;/li&gt;
-&lt;li&gt;Can convert my Macbook to a desktop at home, small enough to travel with in case I need an Ethernet connection or HDMI output.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;You can likely find a similar or better solution for the price. I paid £52 and don&amp;rsquo;t regret the purchase.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;USB-A to USB-C Adapters&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;2x Google Pixel OEM USB-C adapters
-&lt;ul&gt;
-&lt;li&gt;I use these for the Google Pixel, they work in the Macbook but are a bit bulky for it in my use case.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;2x Syntech USB-A to USB-C adapters
-&lt;ul&gt;
-&lt;li&gt;Sleeker and less bulky option for use with the Macbook, can&amp;rsquo;t use both at the same time due to size. I carry two anyway.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;Portable Storage
-&lt;ul&gt;
-&lt;li&gt;Crucial 500GB MX500 SATA SSD
-&lt;ul&gt;
-&lt;li&gt;With USB enclosure.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;stationary&#34;&gt;Stationary&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;A4 Refill Pad
-&lt;ul&gt;
-&lt;li&gt;Self-explanatory. I need to take notes and do classwork. These are cheap and seemingly infinitely available.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;4 Colour Pens
-&lt;ul&gt;
-&lt;li&gt;A pen enclosure with 4 different coloured pens inside. Incredibly useful for language study.&lt;/li&gt;
-&lt;li&gt;Provides red (corrections), black (writing), blue (translation) and green (inline note taking).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Generic branded Post-Its
-&lt;ul&gt;
-&lt;li&gt;For page marking and note taking in my textbooks.&lt;/li&gt;
-&lt;li&gt;I am aware that these deteriorate books over time, I am looking for a better alternative.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;clothing&#34;&gt;Clothing:&lt;/h3&gt;
-&lt;p&gt;Coming soon! / In Progress!&lt;/p&gt;
-&lt;h4 id=&#34;footwear&#34;&gt;Footwear&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Austrian Fallschrimjager Boots&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Perfectly comfortable, keeps my feet warm and dry, slip on and off no issue when needed.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Dutch Army Surplus Wool Socks&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Incredible fit and feel. 80:20 blend woolen socks. Perfect for boots and high top trainers.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Converse Chuck Taylor All Star Hi Top&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Perfect flat shoe for the gym.&lt;/li&gt;
-&lt;li&gt;Cheap, durable, flat, available in large sizes.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;watch&#34;&gt;Watch&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Casio G-Shock GA-110
-&lt;ul&gt;
-&lt;li&gt;Indestructible digital timepiece.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
@@ -611,8 +444,7 @@ t-test-name         |   Testing branches
 &lt;p&gt;I had intended to delete that post for being crap anyway, which I did.&lt;/p&gt;
 &lt;p&gt;The point I was trying to make could be made in a sentence but I tried to give too much context. So I will make my point here and consider the issue resolved:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;The Steam Deck will put more eyes on Linux as a gaming platform. It will not convert the masses to a new operating system that they have no apparent need for. This will not benefit me, I don&amp;rsquo;t really care.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;The Steam Deck will put more eyes on Linux as a gaming platform. It will not convert the masses to a new operating system that they have no apparent need for. This will not benefit me, I don&amp;rsquo;t really care.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;With that out of the way let&amp;rsquo;s get to the main point.&lt;/p&gt;
 &lt;h2 id=&#34;i-dont-care-bro&#34;&gt;I Don&amp;rsquo;t Care Bro&lt;/h2&gt;
 &lt;p&gt;Simply put if you don&amp;rsquo;t use Linux I don&amp;rsquo;t care and more importantly, if you do use Linux I don&amp;rsquo;t care either.&lt;/p&gt;

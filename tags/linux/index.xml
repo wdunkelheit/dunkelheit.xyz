@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>linux on Dunkelheit</title>
+    <title>Linux on Dunkelheit</title>
     <link>https://dunkelheit.xyz/tags/linux/</link>
-    <description>Recent content in linux on Dunkelheit</description>
+    <description>Recent content in Linux on Dunkelheit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Thu, 08 Jun 2023 12:30:00 +0100</lastBuildDate><atom:link href="https://dunkelheit.xyz/tags/linux/index.xml" rel="self" type="application/rss+xml" />
@@ -38,7 +38,7 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;You can now launch OpenMW via Steam by clicking Play on your Morrowind entry.&lt;/p&gt;
-&lt;p&gt;This trick will work for other games too. For example DOOM and DOOM 2 and your personal favourite source port.&lt;/p&gt;
+&lt;p&gt;This trick will work for other games too. For example Daggerfall Unity, DOOM and DOOM 2 and your personal favourite source port(s).&lt;/p&gt;
 &lt;h3 id=&#34;update&#34;&gt;Update&lt;/h3&gt;
 &lt;p&gt;As far as I am aware you can&amp;rsquo;t do this to track game time for Morrowind on a Mac as Steam won&amp;rsquo;t let you launch the game even if you manage to get it to download the game files via a manifest file or console commands.&lt;/p&gt;
 </description>
@@ -183,8 +183,7 @@
 &lt;p&gt;I had intended to delete that post for being crap anyway, which I did.&lt;/p&gt;
 &lt;p&gt;The point I was trying to make could be made in a sentence but I tried to give too much context. So I will make my point here and consider the issue resolved:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;The Steam Deck will put more eyes on Linux as a gaming platform. It will not convert the masses to a new operating system that they have no apparent need for. This will not benefit me, I don&amp;rsquo;t really care.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;The Steam Deck will put more eyes on Linux as a gaming platform. It will not convert the masses to a new operating system that they have no apparent need for. This will not benefit me, I don&amp;rsquo;t really care.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;With that out of the way let&amp;rsquo;s get to the main point.&lt;/p&gt;
 &lt;h2 id=&#34;i-dont-care-bro&#34;&gt;I Don&amp;rsquo;t Care Bro&lt;/h2&gt;
 &lt;p&gt;Simply put if you don&amp;rsquo;t use Linux I don&amp;rsquo;t care and more importantly, if you do use Linux I don&amp;rsquo;t care either.&lt;/p&gt;
